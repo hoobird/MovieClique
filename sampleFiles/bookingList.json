@@ -1,0 +1,1912 @@
+[ "java.util.ArrayList", [ [ "Entity.Booking", {
+  "loyaltyUsed" : false,
+  "bookingID" : 1,
+  "account" : [ "Entity.Account", {
+    "active" : true,
+    "username" : "Emma-Tay",
+    "password" : "password",
+    "type" : 0,
+    "userProfile" : [ "Entity.CustProfile", {
+      "firstName" : "Emma",
+      "lastName" : "Tay",
+      "gender" : "Female",
+      "age" : 51,
+      "phoneNo" : "96606382",
+      "email" : "Emma-Tay@yahoo.com",
+      "genre" : "Comedy",
+      "active" : false,
+      "loyaltyPoints" : 3
+    } ]
+  } ],
+  "sessionBooked" : [ "Entity.Session", {
+    "sessionID" : 1,
+    "hall" : [ "Entity.Hall", {
+      "seatCount" : 50,
+      "hallID" : 0
+    } ],
+    "mov" : [ "Entity.Movie", {
+      "movieID" : 9,
+      "name" : "Bentley",
+      "imgFile" : "Poster9.png",
+      "description" : "Bentley Description",
+      "genre" : "Horror"
+    } ],
+    "seatList" : [ "[LEntity.Seat;", [ [ "Entity.Seat", {
+      "seatID" : 1,
+      "booked" : false
+    } ], [ "Entity.Seat", {
+      "seatID" : 2,
+      "booked" : false
+    } ], [ "Entity.Seat", {
+      "seatID" : 3,
+      "booked" : false
+    } ], [ "Entity.Seat", {
+      "seatID" : 4,
+      "booked" : false
+    } ], [ "Entity.Seat", {
+      "seatID" : 5,
+      "booked" : false
+    } ], [ "Entity.Seat", {
+      "seatID" : 6,
+      "booked" : false
+    } ], [ "Entity.Seat", {
+      "seatID" : 7,
+      "booked" : false
+    } ], [ "Entity.Seat", {
+      "seatID" : 8,
+      "booked" : false
+    } ], [ "Entity.Seat", {
+      "seatID" : 9,
+      "booked" : false
+    } ], [ "Entity.Seat", {
+      "seatID" : 10,
+      "booked" : false
+    } ], [ "Entity.Seat", {
+      "seatID" : 11,
+      "booked" : false
+    } ], [ "Entity.Seat", {
+      "seatID" : 12,
+      "booked" : false
+    } ], [ "Entity.Seat", {
+      "seatID" : 13,
+      "booked" : false
+    } ], [ "Entity.Seat", {
+      "seatID" : 14,
+      "booked" : false
+    } ], [ "Entity.Seat", {
+      "seatID" : 15,
+      "booked" : false
+    } ], [ "Entity.Seat", {
+      "seatID" : 16,
+      "booked" : false
+    } ], [ "Entity.Seat", {
+      "seatID" : 17,
+      "booked" : false
+    } ], [ "Entity.Seat", {
+      "seatID" : 18,
+      "booked" : false
+    } ], [ "Entity.Seat", {
+      "seatID" : 19,
+      "booked" : false
+    } ], [ "Entity.Seat", {
+      "seatID" : 20,
+      "booked" : false
+    } ], [ "Entity.Seat", {
+      "seatID" : 21,
+      "booked" : false
+    } ], [ "Entity.Seat", {
+      "seatID" : 22,
+      "booked" : false
+    } ], [ "Entity.Seat", {
+      "seatID" : 23,
+      "booked" : false
+    } ], [ "Entity.Seat", {
+      "seatID" : 24,
+      "booked" : false
+    } ], [ "Entity.Seat", {
+      "seatID" : 25,
+      "booked" : false
+    } ], [ "Entity.Seat", {
+      "seatID" : 26,
+      "booked" : false
+    } ], [ "Entity.Seat", {
+      "seatID" : 27,
+      "booked" : false
+    } ], [ "Entity.Seat", {
+      "seatID" : 28,
+      "booked" : false
+    } ], [ "Entity.Seat", {
+      "seatID" : 29,
+      "booked" : false
+    } ], [ "Entity.Seat", {
+      "seatID" : 30,
+      "booked" : false
+    } ], [ "Entity.Seat", {
+      "seatID" : 31,
+      "booked" : false
+    } ], [ "Entity.Seat", {
+      "seatID" : 32,
+      "booked" : false
+    } ], [ "Entity.Seat", {
+      "seatID" : 33,
+      "booked" : false
+    } ], [ "Entity.Seat", {
+      "seatID" : 34,
+      "booked" : true
+    } ], [ "Entity.Seat", {
+      "seatID" : 35,
+      "booked" : true
+    } ], [ "Entity.Seat", {
+      "seatID" : 36,
+      "booked" : true
+    } ], [ "Entity.Seat", {
+      "seatID" : 37,
+      "booked" : false
+    } ], [ "Entity.Seat", {
+      "seatID" : 38,
+      "booked" : false
+    } ], [ "Entity.Seat", {
+      "seatID" : 39,
+      "booked" : false
+    } ], [ "Entity.Seat", {
+      "seatID" : 40,
+      "booked" : false
+    } ], [ "Entity.Seat", {
+      "seatID" : 41,
+      "booked" : false
+    } ], [ "Entity.Seat", {
+      "seatID" : 42,
+      "booked" : false
+    } ], [ "Entity.Seat", {
+      "seatID" : 43,
+      "booked" : false
+    } ], [ "Entity.Seat", {
+      "seatID" : 44,
+      "booked" : false
+    } ], [ "Entity.Seat", {
+      "seatID" : 45,
+      "booked" : false
+    } ], [ "Entity.Seat", {
+      "seatID" : 46,
+      "booked" : false
+    } ], [ "Entity.Seat", {
+      "seatID" : 47,
+      "booked" : false
+    } ], [ "Entity.Seat", {
+      "seatID" : 48,
+      "booked" : false
+    } ], [ "Entity.Seat", {
+      "seatID" : 49,
+      "booked" : false
+    } ], [ "Entity.Seat", {
+      "seatID" : 50,
+      "booked" : false
+    } ] ] ],
+    "day" : 1,
+    "slot" : 1
+  } ],
+  "seatsBooked" : [ "[LEntity.Seat;", [ [ "Entity.Seat", {
+    "seatID" : 34,
+    "booked" : true
+  } ], [ "Entity.Seat", {
+    "seatID" : 35,
+    "booked" : true
+  } ], [ "Entity.Seat", {
+    "seatID" : 36,
+    "booked" : true
+  } ] ] ],
+  "total" : 35.0,
+  "ticketsOfEachType" : [ 1, 0, 1, 1 ],
+  "hall" : [ "Entity.Hall", {
+    "seatCount" : 50,
+    "hallID" : 0
+  } ],
+  "movie" : [ "Entity.Movie", {
+    "movieID" : 9,
+    "name" : "Bentley",
+    "imgFile" : "Poster9.png",
+    "description" : "Bentley Description",
+    "genre" : "Horror"
+  } ],
+  "seatsIDBooked" : [ 34, 35, 36 ]
+} ], [ "Entity.Booking", {
+  "loyaltyUsed" : false,
+  "bookingID" : 2,
+  "account" : [ "Entity.Account", {
+    "active" : true,
+    "username" : "Matthew-Chua",
+    "password" : "password",
+    "type" : 0,
+    "userProfile" : [ "Entity.CustProfile", {
+      "firstName" : "Matthew",
+      "lastName" : "Chua",
+      "gender" : "Male",
+      "age" : 75,
+      "phoneNo" : "83237208",
+      "email" : "Matthew-Chua@gmail.com",
+      "genre" : "Fantasy",
+      "active" : false,
+      "loyaltyPoints" : 9
+    } ]
+  } ],
+  "sessionBooked" : [ "Entity.Session", {
+    "sessionID" : 2,
+    "hall" : [ "Entity.Hall", {
+      "seatCount" : 50,
+      "hallID" : 1
+    } ],
+    "mov" : [ "Entity.Movie", {
+      "movieID" : 8,
+      "name" : "World Of Mine",
+      "imgFile" : "Poster8.png",
+      "description" : "World Of Mine Description",
+      "genre" : "Drama"
+    } ],
+    "seatList" : [ "[LEntity.Seat;", [ [ "Entity.Seat", {
+      "seatID" : 1,
+      "booked" : false
+    } ], [ "Entity.Seat", {
+      "seatID" : 2,
+      "booked" : false
+    } ], [ "Entity.Seat", {
+      "seatID" : 3,
+      "booked" : false
+    } ], [ "Entity.Seat", {
+      "seatID" : 4,
+      "booked" : true
+    } ], [ "Entity.Seat", {
+      "seatID" : 5,
+      "booked" : true
+    } ], [ "Entity.Seat", {
+      "seatID" : 6,
+      "booked" : true
+    } ], [ "Entity.Seat", {
+      "seatID" : 7,
+      "booked" : false
+    } ], [ "Entity.Seat", {
+      "seatID" : 8,
+      "booked" : false
+    } ], [ "Entity.Seat", {
+      "seatID" : 9,
+      "booked" : false
+    } ], [ "Entity.Seat", {
+      "seatID" : 10,
+      "booked" : false
+    } ], [ "Entity.Seat", {
+      "seatID" : 11,
+      "booked" : false
+    } ], [ "Entity.Seat", {
+      "seatID" : 12,
+      "booked" : false
+    } ], [ "Entity.Seat", {
+      "seatID" : 13,
+      "booked" : false
+    } ], [ "Entity.Seat", {
+      "seatID" : 14,
+      "booked" : false
+    } ], [ "Entity.Seat", {
+      "seatID" : 15,
+      "booked" : false
+    } ], [ "Entity.Seat", {
+      "seatID" : 16,
+      "booked" : false
+    } ], [ "Entity.Seat", {
+      "seatID" : 17,
+      "booked" : false
+    } ], [ "Entity.Seat", {
+      "seatID" : 18,
+      "booked" : false
+    } ], [ "Entity.Seat", {
+      "seatID" : 19,
+      "booked" : false
+    } ], [ "Entity.Seat", {
+      "seatID" : 20,
+      "booked" : false
+    } ], [ "Entity.Seat", {
+      "seatID" : 21,
+      "booked" : false
+    } ], [ "Entity.Seat", {
+      "seatID" : 22,
+      "booked" : false
+    } ], [ "Entity.Seat", {
+      "seatID" : 23,
+      "booked" : false
+    } ], [ "Entity.Seat", {
+      "seatID" : 24,
+      "booked" : false
+    } ], [ "Entity.Seat", {
+      "seatID" : 25,
+      "booked" : false
+    } ], [ "Entity.Seat", {
+      "seatID" : 26,
+      "booked" : false
+    } ], [ "Entity.Seat", {
+      "seatID" : 27,
+      "booked" : false
+    } ], [ "Entity.Seat", {
+      "seatID" : 28,
+      "booked" : false
+    } ], [ "Entity.Seat", {
+      "seatID" : 29,
+      "booked" : false
+    } ], [ "Entity.Seat", {
+      "seatID" : 30,
+      "booked" : false
+    } ], [ "Entity.Seat", {
+      "seatID" : 31,
+      "booked" : false
+    } ], [ "Entity.Seat", {
+      "seatID" : 32,
+      "booked" : false
+    } ], [ "Entity.Seat", {
+      "seatID" : 33,
+      "booked" : false
+    } ], [ "Entity.Seat", {
+      "seatID" : 34,
+      "booked" : false
+    } ], [ "Entity.Seat", {
+      "seatID" : 35,
+      "booked" : false
+    } ], [ "Entity.Seat", {
+      "seatID" : 36,
+      "booked" : false
+    } ], [ "Entity.Seat", {
+      "seatID" : 37,
+      "booked" : false
+    } ], [ "Entity.Seat", {
+      "seatID" : 38,
+      "booked" : false
+    } ], [ "Entity.Seat", {
+      "seatID" : 39,
+      "booked" : false
+    } ], [ "Entity.Seat", {
+      "seatID" : 40,
+      "booked" : false
+    } ], [ "Entity.Seat", {
+      "seatID" : 41,
+      "booked" : false
+    } ], [ "Entity.Seat", {
+      "seatID" : 42,
+      "booked" : false
+    } ], [ "Entity.Seat", {
+      "seatID" : 43,
+      "booked" : false
+    } ], [ "Entity.Seat", {
+      "seatID" : 44,
+      "booked" : false
+    } ], [ "Entity.Seat", {
+      "seatID" : 45,
+      "booked" : false
+    } ], [ "Entity.Seat", {
+      "seatID" : 46,
+      "booked" : false
+    } ], [ "Entity.Seat", {
+      "seatID" : 47,
+      "booked" : false
+    } ], [ "Entity.Seat", {
+      "seatID" : 48,
+      "booked" : false
+    } ], [ "Entity.Seat", {
+      "seatID" : 49,
+      "booked" : false
+    } ], [ "Entity.Seat", {
+      "seatID" : 50,
+      "booked" : false
+    } ] ] ],
+    "day" : 1,
+    "slot" : 1
+  } ],
+  "seatsBooked" : [ "[LEntity.Seat;", [ [ "Entity.Seat", {
+    "seatID" : 4,
+    "booked" : true
+  } ], [ "Entity.Seat", {
+    "seatID" : 5,
+    "booked" : true
+  } ], [ "Entity.Seat", {
+    "seatID" : 6,
+    "booked" : true
+  } ] ] ],
+  "total" : 35.0,
+  "ticketsOfEachType" : [ 2, 1, 0, 0 ],
+  "hall" : [ "Entity.Hall", {
+    "seatCount" : 50,
+    "hallID" : 1
+  } ],
+  "movie" : [ "Entity.Movie", {
+    "movieID" : 8,
+    "name" : "World Of Mine",
+    "imgFile" : "Poster8.png",
+    "description" : "World Of Mine Description",
+    "genre" : "Drama"
+  } ],
+  "seatsIDBooked" : [ 4, 5, 6 ]
+} ], [ "Entity.Booking", {
+  "loyaltyUsed" : false,
+  "bookingID" : 3,
+  "account" : [ "Entity.Account", {
+    "active" : true,
+    "username" : "Joshua-Teo",
+    "password" : "password",
+    "type" : 0,
+    "userProfile" : [ "Entity.CustProfile", {
+      "firstName" : "Joshua",
+      "lastName" : "Teo",
+      "gender" : "Female",
+      "age" : 60,
+      "phoneNo" : "92034006",
+      "email" : "Joshua-Teo@yahoo.com",
+      "genre" : "Crime",
+      "active" : false,
+      "loyaltyPoints" : 3
+    } ]
+  } ],
+  "sessionBooked" : [ "Entity.Session", {
+    "sessionID" : 3,
+    "hall" : [ "Entity.Hall", {
+      "seatCount" : 50,
+      "hallID" : 2
+    } ],
+    "mov" : [ "Entity.Movie", {
+      "movieID" : 7,
+      "name" : "The Light in the Night Sky",
+      "imgFile" : "Poster7.png",
+      "description" : "The Light in the Night Sky Description",
+      "genre" : "Drama"
+    } ],
+    "seatList" : [ "[LEntity.Seat;", [ [ "Entity.Seat", {
+      "seatID" : 1,
+      "booked" : false
+    } ], [ "Entity.Seat", {
+      "seatID" : 2,
+      "booked" : false
+    } ], [ "Entity.Seat", {
+      "seatID" : 3,
+      "booked" : false
+    } ], [ "Entity.Seat", {
+      "seatID" : 4,
+      "booked" : false
+    } ], [ "Entity.Seat", {
+      "seatID" : 5,
+      "booked" : false
+    } ], [ "Entity.Seat", {
+      "seatID" : 6,
+      "booked" : false
+    } ], [ "Entity.Seat", {
+      "seatID" : 7,
+      "booked" : false
+    } ], [ "Entity.Seat", {
+      "seatID" : 8,
+      "booked" : false
+    } ], [ "Entity.Seat", {
+      "seatID" : 9,
+      "booked" : false
+    } ], [ "Entity.Seat", {
+      "seatID" : 10,
+      "booked" : false
+    } ], [ "Entity.Seat", {
+      "seatID" : 11,
+      "booked" : false
+    } ], [ "Entity.Seat", {
+      "seatID" : 12,
+      "booked" : false
+    } ], [ "Entity.Seat", {
+      "seatID" : 13,
+      "booked" : false
+    } ], [ "Entity.Seat", {
+      "seatID" : 14,
+      "booked" : false
+    } ], [ "Entity.Seat", {
+      "seatID" : 15,
+      "booked" : false
+    } ], [ "Entity.Seat", {
+      "seatID" : 16,
+      "booked" : false
+    } ], [ "Entity.Seat", {
+      "seatID" : 17,
+      "booked" : false
+    } ], [ "Entity.Seat", {
+      "seatID" : 18,
+      "booked" : false
+    } ], [ "Entity.Seat", {
+      "seatID" : 19,
+      "booked" : false
+    } ], [ "Entity.Seat", {
+      "seatID" : 20,
+      "booked" : false
+    } ], [ "Entity.Seat", {
+      "seatID" : 21,
+      "booked" : false
+    } ], [ "Entity.Seat", {
+      "seatID" : 22,
+      "booked" : false
+    } ], [ "Entity.Seat", {
+      "seatID" : 23,
+      "booked" : false
+    } ], [ "Entity.Seat", {
+      "seatID" : 24,
+      "booked" : false
+    } ], [ "Entity.Seat", {
+      "seatID" : 25,
+      "booked" : false
+    } ], [ "Entity.Seat", {
+      "seatID" : 26,
+      "booked" : false
+    } ], [ "Entity.Seat", {
+      "seatID" : 27,
+      "booked" : false
+    } ], [ "Entity.Seat", {
+      "seatID" : 28,
+      "booked" : false
+    } ], [ "Entity.Seat", {
+      "seatID" : 29,
+      "booked" : false
+    } ], [ "Entity.Seat", {
+      "seatID" : 30,
+      "booked" : false
+    } ], [ "Entity.Seat", {
+      "seatID" : 31,
+      "booked" : false
+    } ], [ "Entity.Seat", {
+      "seatID" : 32,
+      "booked" : false
+    } ], [ "Entity.Seat", {
+      "seatID" : 33,
+      "booked" : false
+    } ], [ "Entity.Seat", {
+      "seatID" : 34,
+      "booked" : false
+    } ], [ "Entity.Seat", {
+      "seatID" : 35,
+      "booked" : false
+    } ], [ "Entity.Seat", {
+      "seatID" : 36,
+      "booked" : false
+    } ], [ "Entity.Seat", {
+      "seatID" : 37,
+      "booked" : false
+    } ], [ "Entity.Seat", {
+      "seatID" : 38,
+      "booked" : false
+    } ], [ "Entity.Seat", {
+      "seatID" : 39,
+      "booked" : false
+    } ], [ "Entity.Seat", {
+      "seatID" : 40,
+      "booked" : false
+    } ], [ "Entity.Seat", {
+      "seatID" : 41,
+      "booked" : false
+    } ], [ "Entity.Seat", {
+      "seatID" : 42,
+      "booked" : false
+    } ], [ "Entity.Seat", {
+      "seatID" : 43,
+      "booked" : false
+    } ], [ "Entity.Seat", {
+      "seatID" : 44,
+      "booked" : true
+    } ], [ "Entity.Seat", {
+      "seatID" : 45,
+      "booked" : true
+    } ], [ "Entity.Seat", {
+      "seatID" : 46,
+      "booked" : true
+    } ], [ "Entity.Seat", {
+      "seatID" : 47,
+      "booked" : false
+    } ], [ "Entity.Seat", {
+      "seatID" : 48,
+      "booked" : false
+    } ], [ "Entity.Seat", {
+      "seatID" : 49,
+      "booked" : false
+    } ], [ "Entity.Seat", {
+      "seatID" : 50,
+      "booked" : false
+    } ] ] ],
+    "day" : 1,
+    "slot" : 1
+  } ],
+  "seatsBooked" : [ "[LEntity.Seat;", [ [ "Entity.Seat", {
+    "seatID" : 44,
+    "booked" : true
+  } ], [ "Entity.Seat", {
+    "seatID" : 45,
+    "booked" : true
+  } ], [ "Entity.Seat", {
+    "seatID" : 46,
+    "booked" : true
+  } ] ] ],
+  "total" : 35.0,
+  "ticketsOfEachType" : [ 1, 0, 0, 2 ],
+  "hall" : [ "Entity.Hall", {
+    "seatCount" : 50,
+    "hallID" : 2
+  } ],
+  "movie" : [ "Entity.Movie", {
+    "movieID" : 7,
+    "name" : "The Light in the Night Sky",
+    "imgFile" : "Poster7.png",
+    "description" : "The Light in the Night Sky Description",
+    "genre" : "Drama"
+  } ],
+  "seatsIDBooked" : [ 44, 45, 46 ]
+} ], [ "Entity.Booking", {
+  "loyaltyUsed" : false,
+  "bookingID" : 4,
+  "account" : [ "Entity.Account", {
+    "active" : true,
+    "username" : "Ethan-Wong",
+    "password" : "password",
+    "type" : 0,
+    "userProfile" : [ "Entity.CustProfile", {
+      "firstName" : "Ethan",
+      "lastName" : "Wong",
+      "gender" : "Male",
+      "age" : 75,
+      "phoneNo" : "91115931",
+      "email" : "Ethan-Wong@gmail.com",
+      "genre" : "Crime",
+      "active" : false,
+      "loyaltyPoints" : 1
+    } ]
+  } ],
+  "sessionBooked" : [ "Entity.Session", {
+    "sessionID" : 4,
+    "hall" : [ "Entity.Hall", {
+      "seatCount" : 50,
+      "hallID" : 3
+    } ],
+    "mov" : [ "Entity.Movie", {
+      "movieID" : 6,
+      "name" : "Always be alone",
+      "imgFile" : "Poster6.png",
+      "description" : "Always be alone Description",
+      "genre" : "Comedy"
+    } ],
+    "seatList" : [ "[LEntity.Seat;", [ [ "Entity.Seat", {
+      "seatID" : 1,
+      "booked" : false
+    } ], [ "Entity.Seat", {
+      "seatID" : 2,
+      "booked" : false
+    } ], [ "Entity.Seat", {
+      "seatID" : 3,
+      "booked" : false
+    } ], [ "Entity.Seat", {
+      "seatID" : 4,
+      "booked" : false
+    } ], [ "Entity.Seat", {
+      "seatID" : 5,
+      "booked" : false
+    } ], [ "Entity.Seat", {
+      "seatID" : 6,
+      "booked" : false
+    } ], [ "Entity.Seat", {
+      "seatID" : 7,
+      "booked" : false
+    } ], [ "Entity.Seat", {
+      "seatID" : 8,
+      "booked" : false
+    } ], [ "Entity.Seat", {
+      "seatID" : 9,
+      "booked" : false
+    } ], [ "Entity.Seat", {
+      "seatID" : 10,
+      "booked" : false
+    } ], [ "Entity.Seat", {
+      "seatID" : 11,
+      "booked" : false
+    } ], [ "Entity.Seat", {
+      "seatID" : 12,
+      "booked" : false
+    } ], [ "Entity.Seat", {
+      "seatID" : 13,
+      "booked" : false
+    } ], [ "Entity.Seat", {
+      "seatID" : 14,
+      "booked" : false
+    } ], [ "Entity.Seat", {
+      "seatID" : 15,
+      "booked" : false
+    } ], [ "Entity.Seat", {
+      "seatID" : 16,
+      "booked" : false
+    } ], [ "Entity.Seat", {
+      "seatID" : 17,
+      "booked" : false
+    } ], [ "Entity.Seat", {
+      "seatID" : 18,
+      "booked" : false
+    } ], [ "Entity.Seat", {
+      "seatID" : 19,
+      "booked" : false
+    } ], [ "Entity.Seat", {
+      "seatID" : 20,
+      "booked" : false
+    } ], [ "Entity.Seat", {
+      "seatID" : 21,
+      "booked" : false
+    } ], [ "Entity.Seat", {
+      "seatID" : 22,
+      "booked" : false
+    } ], [ "Entity.Seat", {
+      "seatID" : 23,
+      "booked" : false
+    } ], [ "Entity.Seat", {
+      "seatID" : 24,
+      "booked" : false
+    } ], [ "Entity.Seat", {
+      "seatID" : 25,
+      "booked" : false
+    } ], [ "Entity.Seat", {
+      "seatID" : 26,
+      "booked" : false
+    } ], [ "Entity.Seat", {
+      "seatID" : 27,
+      "booked" : true
+    } ], [ "Entity.Seat", {
+      "seatID" : 28,
+      "booked" : false
+    } ], [ "Entity.Seat", {
+      "seatID" : 29,
+      "booked" : false
+    } ], [ "Entity.Seat", {
+      "seatID" : 30,
+      "booked" : false
+    } ], [ "Entity.Seat", {
+      "seatID" : 31,
+      "booked" : false
+    } ], [ "Entity.Seat", {
+      "seatID" : 32,
+      "booked" : false
+    } ], [ "Entity.Seat", {
+      "seatID" : 33,
+      "booked" : false
+    } ], [ "Entity.Seat", {
+      "seatID" : 34,
+      "booked" : false
+    } ], [ "Entity.Seat", {
+      "seatID" : 35,
+      "booked" : false
+    } ], [ "Entity.Seat", {
+      "seatID" : 36,
+      "booked" : false
+    } ], [ "Entity.Seat", {
+      "seatID" : 37,
+      "booked" : false
+    } ], [ "Entity.Seat", {
+      "seatID" : 38,
+      "booked" : false
+    } ], [ "Entity.Seat", {
+      "seatID" : 39,
+      "booked" : false
+    } ], [ "Entity.Seat", {
+      "seatID" : 40,
+      "booked" : false
+    } ], [ "Entity.Seat", {
+      "seatID" : 41,
+      "booked" : false
+    } ], [ "Entity.Seat", {
+      "seatID" : 42,
+      "booked" : false
+    } ], [ "Entity.Seat", {
+      "seatID" : 43,
+      "booked" : false
+    } ], [ "Entity.Seat", {
+      "seatID" : 44,
+      "booked" : false
+    } ], [ "Entity.Seat", {
+      "seatID" : 45,
+      "booked" : false
+    } ], [ "Entity.Seat", {
+      "seatID" : 46,
+      "booked" : false
+    } ], [ "Entity.Seat", {
+      "seatID" : 47,
+      "booked" : false
+    } ], [ "Entity.Seat", {
+      "seatID" : 48,
+      "booked" : false
+    } ], [ "Entity.Seat", {
+      "seatID" : 49,
+      "booked" : false
+    } ], [ "Entity.Seat", {
+      "seatID" : 50,
+      "booked" : false
+    } ] ] ],
+    "day" : 1,
+    "slot" : 1
+  } ],
+  "seatsBooked" : [ "[LEntity.Seat;", [ [ "Entity.Seat", {
+    "seatID" : 27,
+    "booked" : true
+  } ] ] ],
+  "total" : 15.0,
+  "ticketsOfEachType" : [ 1, 0, 0, 0 ],
+  "hall" : [ "Entity.Hall", {
+    "seatCount" : 50,
+    "hallID" : 3
+  } ],
+  "movie" : [ "Entity.Movie", {
+    "movieID" : 6,
+    "name" : "Always be alone",
+    "imgFile" : "Poster6.png",
+    "description" : "Always be alone Description",
+    "genre" : "Comedy"
+  } ],
+  "seatsIDBooked" : [ 27 ]
+} ], [ "Entity.Booking", {
+  "loyaltyUsed" : false,
+  "bookingID" : 5,
+  "account" : [ "Entity.Account", {
+    "active" : true,
+    "username" : "David-Wong",
+    "password" : "password",
+    "type" : 0,
+    "userProfile" : [ "Entity.CustProfile", {
+      "firstName" : "David",
+      "lastName" : "Wong",
+      "gender" : "Male",
+      "age" : 27,
+      "phoneNo" : "95364555",
+      "email" : "David-Wong@gmail.com",
+      "genre" : "Crime",
+      "active" : false,
+      "loyaltyPoints" : 2
+    } ]
+  } ],
+  "sessionBooked" : [ "Entity.Session", {
+    "sessionID" : 5,
+    "hall" : [ "Entity.Hall", {
+      "seatCount" : 50,
+      "hallID" : 0
+    } ],
+    "mov" : [ "Entity.Movie", {
+      "movieID" : 5,
+      "name" : "Till death do us part",
+      "imgFile" : "Poster5.png",
+      "description" : "Till death do us part Description",
+      "genre" : "Horror"
+    } ],
+    "seatList" : [ "[LEntity.Seat;", [ [ "Entity.Seat", {
+      "seatID" : 1,
+      "booked" : false
+    } ], [ "Entity.Seat", {
+      "seatID" : 2,
+      "booked" : false
+    } ], [ "Entity.Seat", {
+      "seatID" : 3,
+      "booked" : false
+    } ], [ "Entity.Seat", {
+      "seatID" : 4,
+      "booked" : false
+    } ], [ "Entity.Seat", {
+      "seatID" : 5,
+      "booked" : false
+    } ], [ "Entity.Seat", {
+      "seatID" : 6,
+      "booked" : false
+    } ], [ "Entity.Seat", {
+      "seatID" : 7,
+      "booked" : false
+    } ], [ "Entity.Seat", {
+      "seatID" : 8,
+      "booked" : false
+    } ], [ "Entity.Seat", {
+      "seatID" : 9,
+      "booked" : false
+    } ], [ "Entity.Seat", {
+      "seatID" : 10,
+      "booked" : false
+    } ], [ "Entity.Seat", {
+      "seatID" : 11,
+      "booked" : false
+    } ], [ "Entity.Seat", {
+      "seatID" : 12,
+      "booked" : false
+    } ], [ "Entity.Seat", {
+      "seatID" : 13,
+      "booked" : false
+    } ], [ "Entity.Seat", {
+      "seatID" : 14,
+      "booked" : true
+    } ], [ "Entity.Seat", {
+      "seatID" : 15,
+      "booked" : true
+    } ], [ "Entity.Seat", {
+      "seatID" : 16,
+      "booked" : false
+    } ], [ "Entity.Seat", {
+      "seatID" : 17,
+      "booked" : false
+    } ], [ "Entity.Seat", {
+      "seatID" : 18,
+      "booked" : false
+    } ], [ "Entity.Seat", {
+      "seatID" : 19,
+      "booked" : false
+    } ], [ "Entity.Seat", {
+      "seatID" : 20,
+      "booked" : false
+    } ], [ "Entity.Seat", {
+      "seatID" : 21,
+      "booked" : false
+    } ], [ "Entity.Seat", {
+      "seatID" : 22,
+      "booked" : false
+    } ], [ "Entity.Seat", {
+      "seatID" : 23,
+      "booked" : false
+    } ], [ "Entity.Seat", {
+      "seatID" : 24,
+      "booked" : false
+    } ], [ "Entity.Seat", {
+      "seatID" : 25,
+      "booked" : false
+    } ], [ "Entity.Seat", {
+      "seatID" : 26,
+      "booked" : false
+    } ], [ "Entity.Seat", {
+      "seatID" : 27,
+      "booked" : false
+    } ], [ "Entity.Seat", {
+      "seatID" : 28,
+      "booked" : false
+    } ], [ "Entity.Seat", {
+      "seatID" : 29,
+      "booked" : false
+    } ], [ "Entity.Seat", {
+      "seatID" : 30,
+      "booked" : false
+    } ], [ "Entity.Seat", {
+      "seatID" : 31,
+      "booked" : false
+    } ], [ "Entity.Seat", {
+      "seatID" : 32,
+      "booked" : false
+    } ], [ "Entity.Seat", {
+      "seatID" : 33,
+      "booked" : false
+    } ], [ "Entity.Seat", {
+      "seatID" : 34,
+      "booked" : false
+    } ], [ "Entity.Seat", {
+      "seatID" : 35,
+      "booked" : false
+    } ], [ "Entity.Seat", {
+      "seatID" : 36,
+      "booked" : false
+    } ], [ "Entity.Seat", {
+      "seatID" : 37,
+      "booked" : false
+    } ], [ "Entity.Seat", {
+      "seatID" : 38,
+      "booked" : false
+    } ], [ "Entity.Seat", {
+      "seatID" : 39,
+      "booked" : false
+    } ], [ "Entity.Seat", {
+      "seatID" : 40,
+      "booked" : false
+    } ], [ "Entity.Seat", {
+      "seatID" : 41,
+      "booked" : false
+    } ], [ "Entity.Seat", {
+      "seatID" : 42,
+      "booked" : false
+    } ], [ "Entity.Seat", {
+      "seatID" : 43,
+      "booked" : false
+    } ], [ "Entity.Seat", {
+      "seatID" : 44,
+      "booked" : false
+    } ], [ "Entity.Seat", {
+      "seatID" : 45,
+      "booked" : false
+    } ], [ "Entity.Seat", {
+      "seatID" : 46,
+      "booked" : false
+    } ], [ "Entity.Seat", {
+      "seatID" : 47,
+      "booked" : false
+    } ], [ "Entity.Seat", {
+      "seatID" : 48,
+      "booked" : false
+    } ], [ "Entity.Seat", {
+      "seatID" : 49,
+      "booked" : false
+    } ], [ "Entity.Seat", {
+      "seatID" : 50,
+      "booked" : false
+    } ] ] ],
+    "day" : 2,
+    "slot" : 1
+  } ],
+  "seatsBooked" : [ "[LEntity.Seat;", [ [ "Entity.Seat", {
+    "seatID" : 14,
+    "booked" : true
+  } ], [ "Entity.Seat", {
+    "seatID" : 15,
+    "booked" : true
+  } ] ] ],
+  "total" : 20.0,
+  "ticketsOfEachType" : [ 0, 0, 0, 2 ],
+  "hall" : [ "Entity.Hall", {
+    "seatCount" : 50,
+    "hallID" : 0
+  } ],
+  "movie" : [ "Entity.Movie", {
+    "movieID" : 5,
+    "name" : "Till death do us part",
+    "imgFile" : "Poster5.png",
+    "description" : "Till death do us part Description",
+    "genre" : "Horror"
+  } ],
+  "seatsIDBooked" : [ 14, 15 ]
+} ], [ "Entity.Booking", {
+  "loyaltyUsed" : false,
+  "bookingID" : 6,
+  "account" : [ "Entity.Account", {
+    "active" : true,
+    "username" : "Matthew-Chua",
+    "password" : "password",
+    "type" : 0,
+    "userProfile" : [ "Entity.CustProfile", {
+      "firstName" : "Matthew",
+      "lastName" : "Chua",
+      "gender" : "Male",
+      "age" : 75,
+      "phoneNo" : "83237208",
+      "email" : "Matthew-Chua@gmail.com",
+      "genre" : "Fantasy",
+      "active" : false,
+      "loyaltyPoints" : 9
+    } ]
+  } ],
+  "sessionBooked" : [ "Entity.Session", {
+    "sessionID" : 6,
+    "hall" : [ "Entity.Hall", {
+      "seatCount" : 50,
+      "hallID" : 0
+    } ],
+    "mov" : [ "Entity.Movie", {
+      "movieID" : 4,
+      "name" : "Samurai Warrior - Final Battle",
+      "imgFile" : "Poster4.png",
+      "description" : "Samurai  Warrior Description",
+      "genre" : "Historical"
+    } ],
+    "seatList" : [ "[LEntity.Seat;", [ [ "Entity.Seat", {
+      "seatID" : 1,
+      "booked" : false
+    } ], [ "Entity.Seat", {
+      "seatID" : 2,
+      "booked" : false
+    } ], [ "Entity.Seat", {
+      "seatID" : 3,
+      "booked" : false
+    } ], [ "Entity.Seat", {
+      "seatID" : 4,
+      "booked" : true
+    } ], [ "Entity.Seat", {
+      "seatID" : 5,
+      "booked" : true
+    } ], [ "Entity.Seat", {
+      "seatID" : 6,
+      "booked" : true
+    } ], [ "Entity.Seat", {
+      "seatID" : 7,
+      "booked" : false
+    } ], [ "Entity.Seat", {
+      "seatID" : 8,
+      "booked" : false
+    } ], [ "Entity.Seat", {
+      "seatID" : 9,
+      "booked" : false
+    } ], [ "Entity.Seat", {
+      "seatID" : 10,
+      "booked" : false
+    } ], [ "Entity.Seat", {
+      "seatID" : 11,
+      "booked" : false
+    } ], [ "Entity.Seat", {
+      "seatID" : 12,
+      "booked" : false
+    } ], [ "Entity.Seat", {
+      "seatID" : 13,
+      "booked" : false
+    } ], [ "Entity.Seat", {
+      "seatID" : 14,
+      "booked" : false
+    } ], [ "Entity.Seat", {
+      "seatID" : 15,
+      "booked" : false
+    } ], [ "Entity.Seat", {
+      "seatID" : 16,
+      "booked" : false
+    } ], [ "Entity.Seat", {
+      "seatID" : 17,
+      "booked" : false
+    } ], [ "Entity.Seat", {
+      "seatID" : 18,
+      "booked" : false
+    } ], [ "Entity.Seat", {
+      "seatID" : 19,
+      "booked" : false
+    } ], [ "Entity.Seat", {
+      "seatID" : 20,
+      "booked" : false
+    } ], [ "Entity.Seat", {
+      "seatID" : 21,
+      "booked" : false
+    } ], [ "Entity.Seat", {
+      "seatID" : 22,
+      "booked" : false
+    } ], [ "Entity.Seat", {
+      "seatID" : 23,
+      "booked" : false
+    } ], [ "Entity.Seat", {
+      "seatID" : 24,
+      "booked" : false
+    } ], [ "Entity.Seat", {
+      "seatID" : 25,
+      "booked" : false
+    } ], [ "Entity.Seat", {
+      "seatID" : 26,
+      "booked" : false
+    } ], [ "Entity.Seat", {
+      "seatID" : 27,
+      "booked" : false
+    } ], [ "Entity.Seat", {
+      "seatID" : 28,
+      "booked" : false
+    } ], [ "Entity.Seat", {
+      "seatID" : 29,
+      "booked" : false
+    } ], [ "Entity.Seat", {
+      "seatID" : 30,
+      "booked" : false
+    } ], [ "Entity.Seat", {
+      "seatID" : 31,
+      "booked" : false
+    } ], [ "Entity.Seat", {
+      "seatID" : 32,
+      "booked" : false
+    } ], [ "Entity.Seat", {
+      "seatID" : 33,
+      "booked" : false
+    } ], [ "Entity.Seat", {
+      "seatID" : 34,
+      "booked" : false
+    } ], [ "Entity.Seat", {
+      "seatID" : 35,
+      "booked" : false
+    } ], [ "Entity.Seat", {
+      "seatID" : 36,
+      "booked" : false
+    } ], [ "Entity.Seat", {
+      "seatID" : 37,
+      "booked" : false
+    } ], [ "Entity.Seat", {
+      "seatID" : 38,
+      "booked" : false
+    } ], [ "Entity.Seat", {
+      "seatID" : 39,
+      "booked" : false
+    } ], [ "Entity.Seat", {
+      "seatID" : 40,
+      "booked" : false
+    } ], [ "Entity.Seat", {
+      "seatID" : 41,
+      "booked" : false
+    } ], [ "Entity.Seat", {
+      "seatID" : 42,
+      "booked" : false
+    } ], [ "Entity.Seat", {
+      "seatID" : 43,
+      "booked" : false
+    } ], [ "Entity.Seat", {
+      "seatID" : 44,
+      "booked" : false
+    } ], [ "Entity.Seat", {
+      "seatID" : 45,
+      "booked" : false
+    } ], [ "Entity.Seat", {
+      "seatID" : 46,
+      "booked" : false
+    } ], [ "Entity.Seat", {
+      "seatID" : 47,
+      "booked" : false
+    } ], [ "Entity.Seat", {
+      "seatID" : 48,
+      "booked" : false
+    } ], [ "Entity.Seat", {
+      "seatID" : 49,
+      "booked" : false
+    } ], [ "Entity.Seat", {
+      "seatID" : 50,
+      "booked" : false
+    } ] ] ],
+    "day" : 1,
+    "slot" : 2
+  } ],
+  "seatsBooked" : [ "[LEntity.Seat;", [ [ "Entity.Seat", {
+    "seatID" : 4,
+    "booked" : true
+  } ], [ "Entity.Seat", {
+    "seatID" : 5,
+    "booked" : true
+  } ], [ "Entity.Seat", {
+    "seatID" : 6,
+    "booked" : true
+  } ] ] ],
+  "total" : 30.0,
+  "ticketsOfEachType" : [ 0, 0, 3, 0 ],
+  "hall" : [ "Entity.Hall", {
+    "seatCount" : 50,
+    "hallID" : 0
+  } ],
+  "movie" : [ "Entity.Movie", {
+    "movieID" : 4,
+    "name" : "Samurai Warrior - Final Battle",
+    "imgFile" : "Poster4.png",
+    "description" : "Samurai  Warrior Description",
+    "genre" : "Historical"
+  } ],
+  "seatsIDBooked" : [ 4, 5, 6 ]
+} ], [ "Entity.Booking", {
+  "loyaltyUsed" : false,
+  "bookingID" : 7,
+  "account" : [ "Entity.Account", {
+    "active" : true,
+    "username" : "Matthew-Chua",
+    "password" : "password",
+    "type" : 0,
+    "userProfile" : [ "Entity.CustProfile", {
+      "firstName" : "Matthew",
+      "lastName" : "Chua",
+      "gender" : "Male",
+      "age" : 75,
+      "phoneNo" : "83237208",
+      "email" : "Matthew-Chua@gmail.com",
+      "genre" : "Fantasy",
+      "active" : false,
+      "loyaltyPoints" : 9
+    } ]
+  } ],
+  "sessionBooked" : [ "Entity.Session", {
+    "sessionID" : 7,
+    "hall" : [ "Entity.Hall", {
+      "seatCount" : 50,
+      "hallID" : 3
+    } ],
+    "mov" : [ "Entity.Movie", {
+      "movieID" : 3,
+      "name" : "Scary Boy",
+      "imgFile" : "Poster3.png",
+      "description" : "Scary Boy Description",
+      "genre" : "Horror"
+    } ],
+    "seatList" : [ "[LEntity.Seat;", [ [ "Entity.Seat", {
+      "seatID" : 1,
+      "booked" : false
+    } ], [ "Entity.Seat", {
+      "seatID" : 2,
+      "booked" : false
+    } ], [ "Entity.Seat", {
+      "seatID" : 3,
+      "booked" : false
+    } ], [ "Entity.Seat", {
+      "seatID" : 4,
+      "booked" : false
+    } ], [ "Entity.Seat", {
+      "seatID" : 5,
+      "booked" : false
+    } ], [ "Entity.Seat", {
+      "seatID" : 6,
+      "booked" : false
+    } ], [ "Entity.Seat", {
+      "seatID" : 7,
+      "booked" : false
+    } ], [ "Entity.Seat", {
+      "seatID" : 8,
+      "booked" : false
+    } ], [ "Entity.Seat", {
+      "seatID" : 9,
+      "booked" : false
+    } ], [ "Entity.Seat", {
+      "seatID" : 10,
+      "booked" : false
+    } ], [ "Entity.Seat", {
+      "seatID" : 11,
+      "booked" : false
+    } ], [ "Entity.Seat", {
+      "seatID" : 12,
+      "booked" : false
+    } ], [ "Entity.Seat", {
+      "seatID" : 13,
+      "booked" : false
+    } ], [ "Entity.Seat", {
+      "seatID" : 14,
+      "booked" : false
+    } ], [ "Entity.Seat", {
+      "seatID" : 15,
+      "booked" : false
+    } ], [ "Entity.Seat", {
+      "seatID" : 16,
+      "booked" : false
+    } ], [ "Entity.Seat", {
+      "seatID" : 17,
+      "booked" : false
+    } ], [ "Entity.Seat", {
+      "seatID" : 18,
+      "booked" : false
+    } ], [ "Entity.Seat", {
+      "seatID" : 19,
+      "booked" : false
+    } ], [ "Entity.Seat", {
+      "seatID" : 20,
+      "booked" : false
+    } ], [ "Entity.Seat", {
+      "seatID" : 21,
+      "booked" : false
+    } ], [ "Entity.Seat", {
+      "seatID" : 22,
+      "booked" : false
+    } ], [ "Entity.Seat", {
+      "seatID" : 23,
+      "booked" : false
+    } ], [ "Entity.Seat", {
+      "seatID" : 24,
+      "booked" : false
+    } ], [ "Entity.Seat", {
+      "seatID" : 25,
+      "booked" : false
+    } ], [ "Entity.Seat", {
+      "seatID" : 26,
+      "booked" : false
+    } ], [ "Entity.Seat", {
+      "seatID" : 27,
+      "booked" : false
+    } ], [ "Entity.Seat", {
+      "seatID" : 28,
+      "booked" : false
+    } ], [ "Entity.Seat", {
+      "seatID" : 29,
+      "booked" : false
+    } ], [ "Entity.Seat", {
+      "seatID" : 30,
+      "booked" : false
+    } ], [ "Entity.Seat", {
+      "seatID" : 31,
+      "booked" : false
+    } ], [ "Entity.Seat", {
+      "seatID" : 32,
+      "booked" : false
+    } ], [ "Entity.Seat", {
+      "seatID" : 33,
+      "booked" : false
+    } ], [ "Entity.Seat", {
+      "seatID" : 34,
+      "booked" : false
+    } ], [ "Entity.Seat", {
+      "seatID" : 35,
+      "booked" : false
+    } ], [ "Entity.Seat", {
+      "seatID" : 36,
+      "booked" : false
+    } ], [ "Entity.Seat", {
+      "seatID" : 37,
+      "booked" : false
+    } ], [ "Entity.Seat", {
+      "seatID" : 38,
+      "booked" : false
+    } ], [ "Entity.Seat", {
+      "seatID" : 39,
+      "booked" : false
+    } ], [ "Entity.Seat", {
+      "seatID" : 40,
+      "booked" : false
+    } ], [ "Entity.Seat", {
+      "seatID" : 41,
+      "booked" : false
+    } ], [ "Entity.Seat", {
+      "seatID" : 42,
+      "booked" : false
+    } ], [ "Entity.Seat", {
+      "seatID" : 43,
+      "booked" : false
+    } ], [ "Entity.Seat", {
+      "seatID" : 44,
+      "booked" : true
+    } ], [ "Entity.Seat", {
+      "seatID" : 45,
+      "booked" : true
+    } ], [ "Entity.Seat", {
+      "seatID" : 46,
+      "booked" : true
+    } ], [ "Entity.Seat", {
+      "seatID" : 47,
+      "booked" : false
+    } ], [ "Entity.Seat", {
+      "seatID" : 48,
+      "booked" : false
+    } ], [ "Entity.Seat", {
+      "seatID" : 49,
+      "booked" : false
+    } ], [ "Entity.Seat", {
+      "seatID" : 50,
+      "booked" : false
+    } ] ] ],
+    "day" : 6,
+    "slot" : 4
+  } ],
+  "seatsBooked" : [ "[LEntity.Seat;", [ [ "Entity.Seat", {
+    "seatID" : 44,
+    "booked" : true
+  } ], [ "Entity.Seat", {
+    "seatID" : 45,
+    "booked" : true
+  } ], [ "Entity.Seat", {
+    "seatID" : 46,
+    "booked" : true
+  } ] ] ],
+  "total" : 35.0,
+  "ticketsOfEachType" : [ 1, 0, 2, 0 ],
+  "hall" : [ "Entity.Hall", {
+    "seatCount" : 50,
+    "hallID" : 3
+  } ],
+  "movie" : [ "Entity.Movie", {
+    "movieID" : 3,
+    "name" : "Scary Boy",
+    "imgFile" : "Poster3.png",
+    "description" : "Scary Boy Description",
+    "genre" : "Horror"
+  } ],
+  "seatsIDBooked" : [ 44, 45, 46 ]
+} ], [ "Entity.Booking", {
+  "loyaltyUsed" : false,
+  "bookingID" : 8,
+  "account" : [ "Entity.Account", {
+    "active" : true,
+    "username" : "Ava-Teo",
+    "password" : "password",
+    "type" : 0,
+    "userProfile" : [ "Entity.CustProfile", {
+      "firstName" : "Ava",
+      "lastName" : "Teo",
+      "gender" : "Male",
+      "age" : 49,
+      "phoneNo" : "83452970",
+      "email" : "Ava-Teo@yahoo.com",
+      "genre" : "Romance",
+      "active" : false,
+      "loyaltyPoints" : 5
+    } ]
+  } ],
+  "sessionBooked" : [ "Entity.Session", {
+    "sessionID" : 8,
+    "hall" : [ "Entity.Hall", {
+      "seatCount" : 50,
+      "hallID" : 0
+    } ],
+    "mov" : [ "Entity.Movie", {
+      "movieID" : 2,
+      "name" : "Vroom Vroom",
+      "imgFile" : "Poster2.png",
+      "description" : "Vroom Vroom Description",
+      "genre" : "Action"
+    } ],
+    "seatList" : [ "[LEntity.Seat;", [ [ "Entity.Seat", {
+      "seatID" : 1,
+      "booked" : false
+    } ], [ "Entity.Seat", {
+      "seatID" : 2,
+      "booked" : false
+    } ], [ "Entity.Seat", {
+      "seatID" : 3,
+      "booked" : false
+    } ], [ "Entity.Seat", {
+      "seatID" : 4,
+      "booked" : false
+    } ], [ "Entity.Seat", {
+      "seatID" : 5,
+      "booked" : false
+    } ], [ "Entity.Seat", {
+      "seatID" : 6,
+      "booked" : false
+    } ], [ "Entity.Seat", {
+      "seatID" : 7,
+      "booked" : false
+    } ], [ "Entity.Seat", {
+      "seatID" : 8,
+      "booked" : false
+    } ], [ "Entity.Seat", {
+      "seatID" : 9,
+      "booked" : false
+    } ], [ "Entity.Seat", {
+      "seatID" : 10,
+      "booked" : false
+    } ], [ "Entity.Seat", {
+      "seatID" : 11,
+      "booked" : false
+    } ], [ "Entity.Seat", {
+      "seatID" : 12,
+      "booked" : false
+    } ], [ "Entity.Seat", {
+      "seatID" : 13,
+      "booked" : false
+    } ], [ "Entity.Seat", {
+      "seatID" : 14,
+      "booked" : false
+    } ], [ "Entity.Seat", {
+      "seatID" : 15,
+      "booked" : false
+    } ], [ "Entity.Seat", {
+      "seatID" : 16,
+      "booked" : false
+    } ], [ "Entity.Seat", {
+      "seatID" : 17,
+      "booked" : false
+    } ], [ "Entity.Seat", {
+      "seatID" : 18,
+      "booked" : false
+    } ], [ "Entity.Seat", {
+      "seatID" : 19,
+      "booked" : false
+    } ], [ "Entity.Seat", {
+      "seatID" : 20,
+      "booked" : false
+    } ], [ "Entity.Seat", {
+      "seatID" : 21,
+      "booked" : false
+    } ], [ "Entity.Seat", {
+      "seatID" : 22,
+      "booked" : false
+    } ], [ "Entity.Seat", {
+      "seatID" : 23,
+      "booked" : true
+    } ], [ "Entity.Seat", {
+      "seatID" : 24,
+      "booked" : true
+    } ], [ "Entity.Seat", {
+      "seatID" : 25,
+      "booked" : true
+    } ], [ "Entity.Seat", {
+      "seatID" : 26,
+      "booked" : true
+    } ], [ "Entity.Seat", {
+      "seatID" : 27,
+      "booked" : true
+    } ], [ "Entity.Seat", {
+      "seatID" : 28,
+      "booked" : false
+    } ], [ "Entity.Seat", {
+      "seatID" : 29,
+      "booked" : false
+    } ], [ "Entity.Seat", {
+      "seatID" : 30,
+      "booked" : false
+    } ], [ "Entity.Seat", {
+      "seatID" : 31,
+      "booked" : false
+    } ], [ "Entity.Seat", {
+      "seatID" : 32,
+      "booked" : false
+    } ], [ "Entity.Seat", {
+      "seatID" : 33,
+      "booked" : false
+    } ], [ "Entity.Seat", {
+      "seatID" : 34,
+      "booked" : false
+    } ], [ "Entity.Seat", {
+      "seatID" : 35,
+      "booked" : false
+    } ], [ "Entity.Seat", {
+      "seatID" : 36,
+      "booked" : false
+    } ], [ "Entity.Seat", {
+      "seatID" : 37,
+      "booked" : false
+    } ], [ "Entity.Seat", {
+      "seatID" : 38,
+      "booked" : false
+    } ], [ "Entity.Seat", {
+      "seatID" : 39,
+      "booked" : false
+    } ], [ "Entity.Seat", {
+      "seatID" : 40,
+      "booked" : false
+    } ], [ "Entity.Seat", {
+      "seatID" : 41,
+      "booked" : false
+    } ], [ "Entity.Seat", {
+      "seatID" : 42,
+      "booked" : false
+    } ], [ "Entity.Seat", {
+      "seatID" : 43,
+      "booked" : false
+    } ], [ "Entity.Seat", {
+      "seatID" : 44,
+      "booked" : false
+    } ], [ "Entity.Seat", {
+      "seatID" : 45,
+      "booked" : false
+    } ], [ "Entity.Seat", {
+      "seatID" : 46,
+      "booked" : false
+    } ], [ "Entity.Seat", {
+      "seatID" : 47,
+      "booked" : false
+    } ], [ "Entity.Seat", {
+      "seatID" : 48,
+      "booked" : false
+    } ], [ "Entity.Seat", {
+      "seatID" : 49,
+      "booked" : false
+    } ], [ "Entity.Seat", {
+      "seatID" : 50,
+      "booked" : false
+    } ] ] ],
+    "day" : 4,
+    "slot" : 3
+  } ],
+  "seatsBooked" : [ "[LEntity.Seat;", [ [ "Entity.Seat", {
+    "seatID" : 23,
+    "booked" : true
+  } ], [ "Entity.Seat", {
+    "seatID" : 24,
+    "booked" : true
+  } ], [ "Entity.Seat", {
+    "seatID" : 25,
+    "booked" : true
+  } ], [ "Entity.Seat", {
+    "seatID" : 26,
+    "booked" : true
+  } ], [ "Entity.Seat", {
+    "seatID" : 27,
+    "booked" : true
+  } ] ] ],
+  "total" : 50.0,
+  "ticketsOfEachType" : [ 2, 2, 1, 0 ],
+  "hall" : [ "Entity.Hall", {
+    "seatCount" : 50,
+    "hallID" : 0
+  } ],
+  "movie" : [ "Entity.Movie", {
+    "movieID" : 2,
+    "name" : "Vroom Vroom",
+    "imgFile" : "Poster2.png",
+    "description" : "Vroom Vroom Description",
+    "genre" : "Action"
+  } ],
+  "seatsIDBooked" : [ 23, 24, 25, 26, 27 ]
+} ], [ "Entity.Booking", {
+  "loyaltyUsed" : false,
+  "bookingID" : 9,
+  "account" : [ "Entity.Account", {
+    "active" : true,
+    "username" : "Olivia-Ang",
+    "password" : "password",
+    "type" : 0,
+    "userProfile" : [ "Entity.CustProfile", {
+      "firstName" : "Olivia",
+      "lastName" : "Ang",
+      "gender" : "Male",
+      "age" : 21,
+      "phoneNo" : "91716715",
+      "email" : "Olivia-Ang@hotmail.com",
+      "genre" : "Romance",
+      "active" : false,
+      "loyaltyPoints" : 8
+    } ]
+  } ],
+  "sessionBooked" : [ "Entity.Session", {
+    "sessionID" : 9,
+    "hall" : [ "Entity.Hall", {
+      "seatCount" : 50,
+      "hallID" : 3
+    } ],
+    "mov" : [ "Entity.Movie", {
+      "movieID" : 1,
+      "name" : "Forever Alone",
+      "imgFile" : "Poster1.png",
+      "description" : "Forever Alone Description",
+      "genre" : "Comedy"
+    } ],
+    "seatList" : [ "[LEntity.Seat;", [ [ "Entity.Seat", {
+      "seatID" : 1,
+      "booked" : false
+    } ], [ "Entity.Seat", {
+      "seatID" : 2,
+      "booked" : false
+    } ], [ "Entity.Seat", {
+      "seatID" : 3,
+      "booked" : false
+    } ], [ "Entity.Seat", {
+      "seatID" : 4,
+      "booked" : false
+    } ], [ "Entity.Seat", {
+      "seatID" : 5,
+      "booked" : false
+    } ], [ "Entity.Seat", {
+      "seatID" : 6,
+      "booked" : false
+    } ], [ "Entity.Seat", {
+      "seatID" : 7,
+      "booked" : false
+    } ], [ "Entity.Seat", {
+      "seatID" : 8,
+      "booked" : false
+    } ], [ "Entity.Seat", {
+      "seatID" : 9,
+      "booked" : false
+    } ], [ "Entity.Seat", {
+      "seatID" : 10,
+      "booked" : false
+    } ], [ "Entity.Seat", {
+      "seatID" : 11,
+      "booked" : false
+    } ], [ "Entity.Seat", {
+      "seatID" : 12,
+      "booked" : false
+    } ], [ "Entity.Seat", {
+      "seatID" : 13,
+      "booked" : false
+    } ], [ "Entity.Seat", {
+      "seatID" : 14,
+      "booked" : true
+    } ], [ "Entity.Seat", {
+      "seatID" : 15,
+      "booked" : true
+    } ], [ "Entity.Seat", {
+      "seatID" : 16,
+      "booked" : true
+    } ], [ "Entity.Seat", {
+      "seatID" : 17,
+      "booked" : false
+    } ], [ "Entity.Seat", {
+      "seatID" : 18,
+      "booked" : false
+    } ], [ "Entity.Seat", {
+      "seatID" : 19,
+      "booked" : false
+    } ], [ "Entity.Seat", {
+      "seatID" : 20,
+      "booked" : false
+    } ], [ "Entity.Seat", {
+      "seatID" : 21,
+      "booked" : false
+    } ], [ "Entity.Seat", {
+      "seatID" : 22,
+      "booked" : false
+    } ], [ "Entity.Seat", {
+      "seatID" : 23,
+      "booked" : false
+    } ], [ "Entity.Seat", {
+      "seatID" : 24,
+      "booked" : true
+    } ], [ "Entity.Seat", {
+      "seatID" : 25,
+      "booked" : false
+    } ], [ "Entity.Seat", {
+      "seatID" : 26,
+      "booked" : true
+    } ], [ "Entity.Seat", {
+      "seatID" : 27,
+      "booked" : false
+    } ], [ "Entity.Seat", {
+      "seatID" : 28,
+      "booked" : false
+    } ], [ "Entity.Seat", {
+      "seatID" : 29,
+      "booked" : false
+    } ], [ "Entity.Seat", {
+      "seatID" : 30,
+      "booked" : false
+    } ], [ "Entity.Seat", {
+      "seatID" : 31,
+      "booked" : false
+    } ], [ "Entity.Seat", {
+      "seatID" : 32,
+      "booked" : false
+    } ], [ "Entity.Seat", {
+      "seatID" : 33,
+      "booked" : false
+    } ], [ "Entity.Seat", {
+      "seatID" : 34,
+      "booked" : true
+    } ], [ "Entity.Seat", {
+      "seatID" : 35,
+      "booked" : true
+    } ], [ "Entity.Seat", {
+      "seatID" : 36,
+      "booked" : true
+    } ], [ "Entity.Seat", {
+      "seatID" : 37,
+      "booked" : false
+    } ], [ "Entity.Seat", {
+      "seatID" : 38,
+      "booked" : false
+    } ], [ "Entity.Seat", {
+      "seatID" : 39,
+      "booked" : false
+    } ], [ "Entity.Seat", {
+      "seatID" : 40,
+      "booked" : false
+    } ], [ "Entity.Seat", {
+      "seatID" : 41,
+      "booked" : false
+    } ], [ "Entity.Seat", {
+      "seatID" : 42,
+      "booked" : false
+    } ], [ "Entity.Seat", {
+      "seatID" : 43,
+      "booked" : false
+    } ], [ "Entity.Seat", {
+      "seatID" : 44,
+      "booked" : false
+    } ], [ "Entity.Seat", {
+      "seatID" : 45,
+      "booked" : false
+    } ], [ "Entity.Seat", {
+      "seatID" : 46,
+      "booked" : false
+    } ], [ "Entity.Seat", {
+      "seatID" : 47,
+      "booked" : false
+    } ], [ "Entity.Seat", {
+      "seatID" : 48,
+      "booked" : false
+    } ], [ "Entity.Seat", {
+      "seatID" : 49,
+      "booked" : false
+    } ], [ "Entity.Seat", {
+      "seatID" : 50,
+      "booked" : false
+    } ] ] ],
+    "day" : 2,
+    "slot" : 3
+  } ],
+  "seatsBooked" : [ "[LEntity.Seat;", [ [ "Entity.Seat", {
+    "seatID" : 14,
+    "booked" : true
+  } ], [ "Entity.Seat", {
+    "seatID" : 15,
+    "booked" : true
+  } ], [ "Entity.Seat", {
+    "seatID" : 16,
+    "booked" : true
+  } ], [ "Entity.Seat", {
+    "seatID" : 24,
+    "booked" : true
+  } ], [ "Entity.Seat", {
+    "seatID" : 26,
+    "booked" : true
+  } ], [ "Entity.Seat", {
+    "seatID" : 34,
+    "booked" : true
+  } ], [ "Entity.Seat", {
+    "seatID" : 35,
+    "booked" : true
+  } ], [ "Entity.Seat", {
+    "seatID" : 36,
+    "booked" : true
+  } ] ] ],
+  "total" : 80.0,
+  "ticketsOfEachType" : [ 3, 3, 2, 0 ],
+  "hall" : [ "Entity.Hall", {
+    "seatCount" : 50,
+    "hallID" : 3
+  } ],
+  "movie" : [ "Entity.Movie", {
+    "movieID" : 1,
+    "name" : "Forever Alone",
+    "imgFile" : "Poster1.png",
+    "description" : "Forever Alone Description",
+    "genre" : "Comedy"
+  } ],
+  "seatsIDBooked" : [ 14, 15, 16, 24, 26, 34, 35, 36 ]
+} ] ] ]

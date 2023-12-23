@@ -1,0 +1,130 @@
+[ "java.util.ArrayList", [ [ "Entity.Transaction", {
+  "transactionID" : 1,
+  "account" : [ "Entity.Account", {
+    "active" : true,
+    "username" : "Matthew-Chua",
+    "password" : "password",
+    "type" : 0,
+    "userProfile" : [ "Entity.CustProfile", {
+      "firstName" : "Matthew",
+      "lastName" : "Chua",
+      "gender" : "Male",
+      "age" : 75,
+      "phoneNo" : "83237208",
+      "email" : "Matthew-Chua@gmail.com",
+      "genre" : "Fantasy",
+      "active" : false,
+      "loyaltyPoints" : 9
+    } ]
+  } ],
+  "total" : 4.0,
+  "orderQty" : [ "java.util.HashMap", {
+    "Entity.FnB, {fnbID : 1, name : Popcorn, price : 2.5, stock : 96, }" : 1,
+    "Entity.FnB, {fnbID : 4, name : Coke, price : 1.5, stock : 193, }" : 1
+  } ]
+} ], [ "Entity.Transaction", {
+  "transactionID" : 2,
+  "account" : [ "Entity.Account", {
+    "active" : true,
+    "username" : "Matthew-Chua",
+    "password" : "password",
+    "type" : 0,
+    "userProfile" : [ "Entity.CustProfile", {
+      "firstName" : "Matthew",
+      "lastName" : "Chua",
+      "gender" : "Male",
+      "age" : 75,
+      "phoneNo" : "83237208",
+      "email" : "Matthew-Chua@gmail.com",
+      "genre" : "Fantasy",
+      "active" : false,
+      "loyaltyPoints" : 9
+    } ]
+  } ],
+  "total" : 12.5,
+  "orderQty" : [ "java.util.HashMap", {
+    "Entity.FnB, {fnbID : 2, name : Chips, price : 3.5, stock : 95, }" : 1,
+    "Entity.FnB, {fnbID : 3, name : Nachos, price : 4.5, stock : 98, }" : 1,
+    "Entity.FnB, {fnbID : 4, name : Coke, price : 1.5, stock : 193, }" : 3
+  } ]
+} ], [ "Entity.Transaction", {
+  "transactionID" : 3,
+  "account" : [ "Entity.Account", {
+    "active" : true,
+    "username" : "Olivia-Ang",
+    "password" : "password",
+    "type" : 0,
+    "userProfile" : [ "Entity.CustProfile", {
+      "firstName" : "Olivia",
+      "lastName" : "Ang",
+      "gender" : "Male",
+      "age" : 21,
+      "phoneNo" : "91716715",
+      "email" : "Olivia-Ang@hotmail.com",
+      "genre" : "Romance",
+      "active" : false,
+      "loyaltyPoints" : 8
+    } ]
+  } ],
+  "total" : 18.0,
+  "orderQty" : [ "java.util.HashMap", {
+    "Entity.FnB, {fnbID : 5, name : Sprite, price : 1.5, stock : 198, }" : 1,
+    "Entity.FnB, {fnbID : 2, name : Chips, price : 3.5, stock : 95, }" : 1,
+    "Entity.FnB, {fnbID : 1, name : Popcorn, price : 2.5, stock : 96, }" : 1,
+    "Entity.FnB, {fnbID : 3, name : Nachos, price : 4.5, stock : 98, }" : 1,
+    "Entity.FnB, {fnbID : 4, name : Coke, price : 1.5, stock : 193, }" : 2,
+    "Entity.FnB, {fnbID : 6, name : Ice Lemon Tea, price : 1.5, stock : 195, }" : 2
+  } ]
+} ], [ "Entity.Transaction", {
+  "transactionID" : 4,
+  "account" : [ "Entity.Account", {
+    "active" : true,
+    "username" : "Joshua-Goh",
+    "password" : "password",
+    "type" : 0,
+    "userProfile" : [ "Entity.CustProfile", {
+      "firstName" : "Joshua",
+      "lastName" : "Goh",
+      "gender" : "Female",
+      "age" : 40,
+      "phoneNo" : "85631243",
+      "email" : "Joshua-Goh@outlook.com",
+      "genre" : "Horror",
+      "active" : false,
+      "loyaltyPoints" : 0
+    } ]
+  } ],
+  "total" : 9.0,
+  "orderQty" : [ "java.util.HashMap", {
+    "Entity.FnB, {fnbID : 2, name : Chips, price : 3.5, stock : 95, }" : 1,
+    "Entity.FnB, {fnbID : 1, name : Popcorn, price : 2.5, stock : 96, }" : 1,
+    "Entity.FnB, {fnbID : 6, name : Ice Lemon Tea, price : 1.5, stock : 195, }" : 2
+  } ]
+} ], [ "Entity.Transaction", {
+  "transactionID" : 5,
+  "account" : [ "Entity.Account", {
+    "active" : true,
+    "username" : "Ava-Teo",
+    "password" : "password",
+    "type" : 0,
+    "userProfile" : [ "Entity.CustProfile", {
+      "firstName" : "Ava",
+      "lastName" : "Teo",
+      "gender" : "Male",
+      "age" : 49,
+      "phoneNo" : "83452970",
+      "email" : "Ava-Teo@yahoo.com",
+      "genre" : "Romance",
+      "active" : false,
+      "loyaltyPoints" : 5
+    } ]
+  } ],
+  "total" : 14.0,
+  "orderQty" : [ "java.util.HashMap", {
+    "Entity.FnB, {fnbID : 5, name : Sprite, price : 1.5, stock : 198, }" : 1,
+    "Entity.FnB, {fnbID : 2, name : Chips, price : 3.5, stock : 95, }" : 2,
+    "Entity.FnB, {fnbID : 1, name : Popcorn, price : 2.5, stock : 96, }" : 1,
+    "Entity.FnB, {fnbID : 4, name : Coke, price : 1.5, stock : 193, }" : 1,
+    "Entity.FnB, {fnbID : 6, name : Ice Lemon Tea, price : 1.5, stock : 195, }" : 1
+  } ]
+} ] ] ]

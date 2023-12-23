@@ -1,0 +1,290 @@
+/* Common body background */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    /* background-image: url("Resources/background.png"); */
+    background-color: #412c04;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+/* Common top Banner */
+.topBanner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #222;
+    color: #fff;
+    padding: 10px;
+
+}
+
+.topBanner .logo img {
+    height: 150px;
+    padding-left: 50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.topBanner nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.topBanner nav li {
+    margin: 0 10px;
+}
+
+.topBanner nav a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.topBanner a:hover {
+    text-decoration: underline;
+}
+
+.topBanner .profile {
+    position: relative;
+    font-size: 30px;
+}
+
+.topBanner .profile a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    margin-right: 50px;
+}
+
+.topBanner .dropdown {
+    display: none;
+    position: absolute;
+    overflow: auto;
+    background-color: #fff;
+    padding: 10px;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.2);
+}
+
+.topBanner .profile:hover .dropdown {
+    display: block;
+}
+
+.topBanner .dropdown a {
+    display: block;
+    margin-bottom: 10px;
+    color: #333;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.topBanner .dropdown a:hover {
+    text-decoration: underline;
+}
+
+
+/* Common body title text */
+
+.body-text {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.body-text h1 {
+    font-size: 100px;
+    color: #FFF;
+    font-family: "Consolas";
+    font-weight: bold;
+}
+
+.body-text label {
+    font-size: 100px;
+    color: #FFF;
+    font-family: "Consolas";
+}
+
+/* Secret Admin login button?
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+} */
+
+.bottom-link {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.bottom-link:hover {
+    text-decoration: underline;
+}
+
+
+
+/* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+/* Exclusive to HOME PAGE login logout buttons */
+
+.login-register {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.login-register .button, button {
+    display: inline-block;
+    background-color: #222;
+    color: #fff;
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+    padding: 15px 20px;
+    font-size: 50px;
+    margin: 0 30px;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: #555;
+}
+
+
+
+/* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+
+
+
+/* Exclusive to NowShowing page */
+.movie-posters {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.movie-poster {
+    position: relative;
+    margin: 20px;
+}
+
+.movie-poster img {
+    max-width: 300px;
+}
+
+.movie-description {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: #fff;
+    padding: 10px;
+    transform: translateY(100%);
+    transition: transform 0.3s ease;
+    visibility: hidden;
+}
+
+.movie-poster:hover .movie-description {
+    transform: translateY(0);
+    visibility: visible;
+}
+
+.movie-description h3 {
+    margin-bottom: 5px;
+}
+
+.movie-description p {
+    font-size: 0.8em;
+}
+
+/* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+
+
+/* Exclusive to login-register page */
+.login-register-details {
+    box-sizing: border-box;
+    margin: auto;
+    width: 60%;
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+
+.login-register-details label {
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+}
+
+.login-register-details button:hover {
+    background-color: #45a049;
+}
+
+.login-register-details .row {
+    display: flex;
+}
+
+.login-register-details .row .col-25 {
+    float: left;
+    width: 25%;
+    margin-top: 6px;
+}
+
+.login-register-details .row .col-75 {
+    float: left;
+    width: 75%;
+    margin-top: 6px;
+    padding-right:5% ;
+}
+
+
+.login-register-details input,
+.login-register-details select {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+}
+
+/* Clear floats after the columns */
+.login-register-details .row::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+.login-register-details button {
+    background-color: #222;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 30px;
+    padding: 12px 20px;
+    margin-top: 5px;
+    cursor: pointer;
+}
+
+/* For tables */
+table {
+    background-color: #222;
+    border-collapse: collapse;
+    width: 100%;
+    border: 1px solid #ddd;
+    font-size: 18px;
+}
+tr, td {
+    color: #fff;
+}
+
+th, td {
+    border: 1px solid black;
+    padding: 8px;
+    /*text-align: center;*/
+}

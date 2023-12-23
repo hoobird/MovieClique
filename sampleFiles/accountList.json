@@ -1,0 +1,2231 @@
+[ "java.util.ArrayList", [ [ "Entity.Account", {
+  "active" : true,
+  "username" : "admin0",
+  "password" : "admin0",
+  "type" : 3,
+  "userProfile" : [ "Entity.Profile", {
+    "active" : false,
+    "firstName" : "Nathan",
+    "lastName" : "Neo",
+    "gender" : "Male",
+    "age" : 65,
+    "phoneNo" : "85961629",
+    "email" : "Nathan-Neo@gmail.com"
+  } ]
+} ], [ "Entity.Account", {
+  "active" : true,
+  "username" : "admin1",
+  "password" : "admin1",
+  "type" : 3,
+  "userProfile" : [ "Entity.Profile", {
+    "active" : false,
+    "firstName" : "Ryan",
+    "lastName" : "Tan",
+    "gender" : "Male",
+    "age" : 78,
+    "phoneNo" : "96656386",
+    "email" : "Ryan-Tan@outlook.com"
+  } ]
+} ], [ "Entity.Account", {
+  "active" : true,
+  "username" : "admin2",
+  "password" : "admin2",
+  "type" : 3,
+  "userProfile" : [ "Entity.Profile", {
+    "active" : false,
+    "firstName" : "Isabella",
+    "lastName" : "Lee",
+    "gender" : "Male",
+    "age" : 57,
+    "phoneNo" : "86798135",
+    "email" : "Isabella-Lee@example.com"
+  } ]
+} ], [ "Entity.Account", {
+  "active" : true,
+  "username" : "admin3",
+  "password" : "admin3",
+  "type" : 3,
+  "userProfile" : [ "Entity.Profile", {
+    "active" : false,
+    "firstName" : "Nathan",
+    "lastName" : "Chua",
+    "gender" : "Female",
+    "age" : 50,
+    "phoneNo" : "93903890",
+    "email" : "Nathan-Chua@example.com"
+  } ]
+} ], [ "Entity.Account", {
+  "active" : true,
+  "username" : "admin4",
+  "password" : "admin4",
+  "type" : 3,
+  "userProfile" : [ "Entity.Profile", {
+    "active" : false,
+    "firstName" : "Emily",
+    "lastName" : "Lee",
+    "gender" : "Male",
+    "age" : 73,
+    "phoneNo" : "83883215",
+    "email" : "Emily-Lee@hotmail.com"
+  } ]
+} ], [ "Entity.Account", {
+  "active" : true,
+  "username" : "admin5",
+  "password" : "admin5",
+  "type" : 3,
+  "userProfile" : [ "Entity.Profile", {
+    "active" : false,
+    "firstName" : "Natalie",
+    "lastName" : "Poh",
+    "gender" : "Male",
+    "age" : 74,
+    "phoneNo" : "92816497",
+    "email" : "Natalie-Poh@example.com"
+  } ]
+} ], [ "Entity.Account", {
+  "active" : true,
+  "username" : "admin6",
+  "password" : "admin6",
+  "type" : 3,
+  "userProfile" : [ "Entity.Profile", {
+    "active" : false,
+    "firstName" : "Natalie",
+    "lastName" : "Lee",
+    "gender" : "Male",
+    "age" : 58,
+    "phoneNo" : "88788799",
+    "email" : "Natalie-Lee@gmail.com"
+  } ]
+} ], [ "Entity.Account", {
+  "active" : true,
+  "username" : "admin7",
+  "password" : "admin7",
+  "type" : 3,
+  "userProfile" : [ "Entity.Profile", {
+    "active" : false,
+    "firstName" : "Samuel",
+    "lastName" : "Tay",
+    "gender" : "Male",
+    "age" : 27,
+    "phoneNo" : "81048143",
+    "email" : "Samuel-Tay@yahoo.com"
+  } ]
+} ], [ "Entity.Account", {
+  "active" : true,
+  "username" : "admin8",
+  "password" : "admin8",
+  "type" : 3,
+  "userProfile" : [ "Entity.Profile", {
+    "active" : false,
+    "firstName" : "Ava",
+    "lastName" : "Lim",
+    "gender" : "Male",
+    "age" : 40,
+    "phoneNo" : "99795255",
+    "email" : "Ava-Lim@gmail.com"
+  } ]
+} ], [ "Entity.Account", {
+  "active" : true,
+  "username" : "admin9",
+  "password" : "admin9",
+  "type" : 3,
+  "userProfile" : [ "Entity.Profile", {
+    "active" : false,
+    "firstName" : "Nathan",
+    "lastName" : "Goh",
+    "gender" : "Male",
+    "age" : 55,
+    "phoneNo" : "94487313",
+    "email" : "Nathan-Goh@hotmail.com"
+  } ]
+} ], [ "Entity.Account", {
+  "active" : true,
+  "username" : "man0",
+  "password" : "man0",
+  "type" : 2,
+  "userProfile" : [ "Entity.Profile", {
+    "active" : false,
+    "firstName" : "Olivia",
+    "lastName" : "Tan",
+    "gender" : "Male",
+    "age" : 59,
+    "phoneNo" : "87717392",
+    "email" : "Olivia-Tan@gmail.com"
+  } ]
+} ], [ "Entity.Account", {
+  "active" : true,
+  "username" : "man1",
+  "password" : "man1",
+  "type" : 2,
+  "userProfile" : [ "Entity.Profile", {
+    "active" : false,
+    "firstName" : "Isaac",
+    "lastName" : "Yeo",
+    "gender" : "Male",
+    "age" : 30,
+    "phoneNo" : "92769372",
+    "email" : "Isaac-Yeo@example.com"
+  } ]
+} ], [ "Entity.Account", {
+  "active" : true,
+  "username" : "man2",
+  "password" : "man2",
+  "type" : 2,
+  "userProfile" : [ "Entity.Profile", {
+    "active" : false,
+    "firstName" : "Hannah",
+    "lastName" : "Seow",
+    "gender" : "Male",
+    "age" : 18,
+    "phoneNo" : "88638685",
+    "email" : "Hannah-Seow@example.com"
+  } ]
+} ], [ "Entity.Account", {
+  "active" : true,
+  "username" : "man3",
+  "password" : "man3",
+  "type" : 2,
+  "userProfile" : [ "Entity.Profile", {
+    "active" : false,
+    "firstName" : "Emily",
+    "lastName" : "Seow",
+    "gender" : "Female",
+    "age" : 26,
+    "phoneNo" : "82995715",
+    "email" : "Emily-Seow@gmail.com"
+  } ]
+} ], [ "Entity.Account", {
+  "active" : true,
+  "username" : "man4",
+  "password" : "man4",
+  "type" : 2,
+  "userProfile" : [ "Entity.Profile", {
+    "active" : false,
+    "firstName" : "Ryan",
+    "lastName" : "Ong",
+    "gender" : "Male",
+    "age" : 91,
+    "phoneNo" : "97132576",
+    "email" : "Ryan-Ong@example.com"
+  } ]
+} ], [ "Entity.Account", {
+  "active" : true,
+  "username" : "man5",
+  "password" : "man5",
+  "type" : 2,
+  "userProfile" : [ "Entity.Profile", {
+    "active" : false,
+    "firstName" : "David",
+    "lastName" : "Yeo",
+    "gender" : "Female",
+    "age" : 21,
+    "phoneNo" : "87847873",
+    "email" : "David-Yeo@yahoo.com"
+  } ]
+} ], [ "Entity.Account", {
+  "active" : true,
+  "username" : "man6",
+  "password" : "man6",
+  "type" : 2,
+  "userProfile" : [ "Entity.Profile", {
+    "active" : false,
+    "firstName" : "Lily",
+    "lastName" : "Toh",
+    "gender" : "Male",
+    "age" : 39,
+    "phoneNo" : "81606232",
+    "email" : "Lily-Toh@gmail.com"
+  } ]
+} ], [ "Entity.Account", {
+  "active" : true,
+  "username" : "man7",
+  "password" : "man7",
+  "type" : 2,
+  "userProfile" : [ "Entity.Profile", {
+    "active" : false,
+    "firstName" : "Natalie",
+    "lastName" : "Neo",
+    "gender" : "Female",
+    "age" : 74,
+    "phoneNo" : "97723743",
+    "email" : "Natalie-Neo@outlook.com"
+  } ]
+} ], [ "Entity.Account", {
+  "active" : true,
+  "username" : "man8",
+  "password" : "man8",
+  "type" : 2,
+  "userProfile" : [ "Entity.Profile", {
+    "active" : false,
+    "firstName" : "Amelia",
+    "lastName" : "Lee",
+    "gender" : "Male",
+    "age" : 39,
+    "phoneNo" : "95178672",
+    "email" : "Amelia-Lee@hotmail.com"
+  } ]
+} ], [ "Entity.Account", {
+  "active" : true,
+  "username" : "man9",
+  "password" : "man9",
+  "type" : 2,
+  "userProfile" : [ "Entity.Profile", {
+    "active" : false,
+    "firstName" : "Isaac",
+    "lastName" : "Tan",
+    "gender" : "Female",
+    "age" : 21,
+    "phoneNo" : "95911613",
+    "email" : "Isaac-Tan@gmail.com"
+  } ]
+} ], [ "Entity.Account", {
+  "active" : true,
+  "username" : "man10",
+  "password" : "man10",
+  "type" : 2,
+  "userProfile" : [ "Entity.Profile", {
+    "active" : false,
+    "firstName" : "Ryan",
+    "lastName" : "Poh",
+    "gender" : "Male",
+    "age" : 57,
+    "phoneNo" : "85702076",
+    "email" : "Ryan-Poh@yahoo.com"
+  } ]
+} ], [ "Entity.Account", {
+  "active" : true,
+  "username" : "man11",
+  "password" : "man11",
+  "type" : 2,
+  "userProfile" : [ "Entity.Profile", {
+    "active" : false,
+    "firstName" : "Sarah",
+    "lastName" : "Tan",
+    "gender" : "Male",
+    "age" : 77,
+    "phoneNo" : "93875069",
+    "email" : "Sarah-Tan@outlook.com"
+  } ]
+} ], [ "Entity.Account", {
+  "active" : true,
+  "username" : "man12",
+  "password" : "man12",
+  "type" : 2,
+  "userProfile" : [ "Entity.Profile", {
+    "active" : false,
+    "firstName" : "Isaac",
+    "lastName" : "Neo",
+    "gender" : "Female",
+    "age" : 70,
+    "phoneNo" : "94365214",
+    "email" : "Isaac-Neo@example.com"
+  } ]
+} ], [ "Entity.Account", {
+  "active" : true,
+  "username" : "man13",
+  "password" : "man13",
+  "type" : 2,
+  "userProfile" : [ "Entity.Profile", {
+    "active" : false,
+    "firstName" : "Matthew",
+    "lastName" : "Koh",
+    "gender" : "Female",
+    "age" : 88,
+    "phoneNo" : "97784355",
+    "email" : "Matthew-Koh@outlook.com"
+  } ]
+} ], [ "Entity.Account", {
+  "active" : true,
+  "username" : "man14",
+  "password" : "man14",
+  "type" : 2,
+  "userProfile" : [ "Entity.Profile", {
+    "active" : false,
+    "firstName" : "David",
+    "lastName" : "Ng",
+    "gender" : "Male",
+    "age" : 28,
+    "phoneNo" : "99744135",
+    "email" : "David-Ng@example.com"
+  } ]
+} ], [ "Entity.Account", {
+  "active" : true,
+  "username" : "staff0",
+  "password" : "staff0",
+  "type" : 1,
+  "userProfile" : [ "Entity.Profile", {
+    "active" : false,
+    "firstName" : "Chloe",
+    "lastName" : "Lee",
+    "gender" : "Male",
+    "age" : 79,
+    "phoneNo" : "97744396",
+    "email" : "Chloe-Lee@hotmail.com"
+  } ]
+} ], [ "Entity.Account", {
+  "active" : true,
+  "username" : "staff1",
+  "password" : "staff1",
+  "type" : 1,
+  "userProfile" : [ "Entity.Profile", {
+    "active" : false,
+    "firstName" : "Natalie",
+    "lastName" : "Teo",
+    "gender" : "Male",
+    "age" : 63,
+    "phoneNo" : "82534649",
+    "email" : "Natalie-Teo@outlook.com"
+  } ]
+} ], [ "Entity.Account", {
+  "active" : true,
+  "username" : "staff2",
+  "password" : "staff2",
+  "type" : 1,
+  "userProfile" : [ "Entity.Profile", {
+    "active" : false,
+    "firstName" : "Joshua",
+    "lastName" : "Seow",
+    "gender" : "Female",
+    "age" : 91,
+    "phoneNo" : "86987543",
+    "email" : "Joshua-Seow@gmail.com"
+  } ]
+} ], [ "Entity.Account", {
+  "active" : true,
+  "username" : "staff3",
+  "password" : "staff3",
+  "type" : 1,
+  "userProfile" : [ "Entity.Profile", {
+    "active" : false,
+    "firstName" : "David",
+    "lastName" : "Low",
+    "gender" : "Female",
+    "age" : 38,
+    "phoneNo" : "95165092",
+    "email" : "David-Low@example.com"
+  } ]
+} ], [ "Entity.Account", {
+  "active" : true,
+  "username" : "staff4",
+  "password" : "staff4",
+  "type" : 1,
+  "userProfile" : [ "Entity.Profile", {
+    "active" : false,
+    "firstName" : "David",
+    "lastName" : "Yeo",
+    "gender" : "Male",
+    "age" : 31,
+    "phoneNo" : "91530415",
+    "email" : "David-Yeo@outlook.com"
+  } ]
+} ], [ "Entity.Account", {
+  "active" : true,
+  "username" : "staff5",
+  "password" : "staff5",
+  "type" : 1,
+  "userProfile" : [ "Entity.Profile", {
+    "active" : false,
+    "firstName" : "Olivia",
+    "lastName" : "Toh",
+    "gender" : "Female",
+    "age" : 74,
+    "phoneNo" : "86105117",
+    "email" : "Olivia-Toh@gmail.com"
+  } ]
+} ], [ "Entity.Account", {
+  "active" : true,
+  "username" : "staff6",
+  "password" : "staff6",
+  "type" : 1,
+  "userProfile" : [ "Entity.Profile", {
+    "active" : false,
+    "firstName" : "Lily",
+    "lastName" : "Lee",
+    "gender" : "Female",
+    "age" : 54,
+    "phoneNo" : "88930266",
+    "email" : "Lily-Lee@hotmail.com"
+  } ]
+} ], [ "Entity.Account", {
+  "active" : true,
+  "username" : "staff7",
+  "password" : "staff7",
+  "type" : 1,
+  "userProfile" : [ "Entity.Profile", {
+    "active" : false,
+    "firstName" : "Grace",
+    "lastName" : "Poh",
+    "gender" : "Male",
+    "age" : 71,
+    "phoneNo" : "98379563",
+    "email" : "Grace-Poh@example.com"
+  } ]
+} ], [ "Entity.Account", {
+  "active" : true,
+  "username" : "staff8",
+  "password" : "staff8",
+  "type" : 1,
+  "userProfile" : [ "Entity.Profile", {
+    "active" : false,
+    "firstName" : "Mia",
+    "lastName" : "Low",
+    "gender" : "Male",
+    "age" : 37,
+    "phoneNo" : "96578726",
+    "email" : "Mia-Low@yahoo.com"
+  } ]
+} ], [ "Entity.Account", {
+  "active" : true,
+  "username" : "staff9",
+  "password" : "staff9",
+  "type" : 1,
+  "userProfile" : [ "Entity.Profile", {
+    "active" : false,
+    "firstName" : "Isaac",
+    "lastName" : "Toh",
+    "gender" : "Female",
+    "age" : 20,
+    "phoneNo" : "85398064",
+    "email" : "Isaac-Toh@gmail.com"
+  } ]
+} ], [ "Entity.Account", {
+  "active" : true,
+  "username" : "staff10",
+  "password" : "staff10",
+  "type" : 1,
+  "userProfile" : [ "Entity.Profile", {
+    "active" : false,
+    "firstName" : "Aaron",
+    "lastName" : "Lee",
+    "gender" : "Male",
+    "age" : 83,
+    "phoneNo" : "99171706",
+    "email" : "Aaron-Lee@example.com"
+  } ]
+} ], [ "Entity.Account", {
+  "active" : true,
+  "username" : "staff11",
+  "password" : "staff11",
+  "type" : 1,
+  "userProfile" : [ "Entity.Profile", {
+    "active" : false,
+    "firstName" : "Ryan",
+    "lastName" : "Loh",
+    "gender" : "Female",
+    "age" : 50,
+    "phoneNo" : "81379541",
+    "email" : "Ryan-Loh@outlook.com"
+  } ]
+} ], [ "Entity.Account", {
+  "active" : true,
+  "username" : "staff12",
+  "password" : "staff12",
+  "type" : 1,
+  "userProfile" : [ "Entity.Profile", {
+    "active" : false,
+    "firstName" : "Isaac",
+    "lastName" : "Wong",
+    "gender" : "Male",
+    "age" : 51,
+    "phoneNo" : "99520874",
+    "email" : "Isaac-Wong@yahoo.com"
+  } ]
+} ], [ "Entity.Account", {
+  "active" : true,
+  "username" : "staff13",
+  "password" : "staff13",
+  "type" : 1,
+  "userProfile" : [ "Entity.Profile", {
+    "active" : false,
+    "firstName" : "Chloe",
+    "lastName" : "Toh",
+    "gender" : "Female",
+    "age" : 44,
+    "phoneNo" : "88437526",
+    "email" : "Chloe-Toh@outlook.com"
+  } ]
+} ], [ "Entity.Account", {
+  "active" : true,
+  "username" : "staff14",
+  "password" : "staff14",
+  "type" : 1,
+  "userProfile" : [ "Entity.Profile", {
+    "active" : false,
+    "firstName" : "Matthew",
+    "lastName" : "Loh",
+    "gender" : "Male",
+    "age" : 93,
+    "phoneNo" : "94926117",
+    "email" : "Matthew-Loh@gmail.com"
+  } ]
+} ], [ "Entity.Account", {
+  "active" : true,
+  "username" : "staff15",
+  "password" : "staff15",
+  "type" : 1,
+  "userProfile" : [ "Entity.Profile", {
+    "active" : false,
+    "firstName" : "Amelia",
+    "lastName" : "Seow",
+    "gender" : "Male",
+    "age" : 56,
+    "phoneNo" : "89070130",
+    "email" : "Amelia-Seow@hotmail.com"
+  } ]
+} ], [ "Entity.Account", {
+  "active" : true,
+  "username" : "staff16",
+  "password" : "staff16",
+  "type" : 1,
+  "userProfile" : [ "Entity.Profile", {
+    "active" : false,
+    "firstName" : "Sophia",
+    "lastName" : "Lim",
+    "gender" : "Male",
+    "age" : 24,
+    "phoneNo" : "95149441",
+    "email" : "Sophia-Lim@hotmail.com"
+  } ]
+} ], [ "Entity.Account", {
+  "active" : true,
+  "username" : "staff17",
+  "password" : "staff17",
+  "type" : 1,
+  "userProfile" : [ "Entity.Profile", {
+    "active" : false,
+    "firstName" : "Gabriel",
+    "lastName" : "Teo",
+    "gender" : "Female",
+    "age" : 58,
+    "phoneNo" : "97917097",
+    "email" : "Gabriel-Teo@example.com"
+  } ]
+} ], [ "Entity.Account", {
+  "active" : true,
+  "username" : "staff18",
+  "password" : "staff18",
+  "type" : 1,
+  "userProfile" : [ "Entity.Profile", {
+    "active" : false,
+    "firstName" : "Ryan",
+    "lastName" : "Low",
+    "gender" : "Female",
+    "age" : 55,
+    "phoneNo" : "86148526",
+    "email" : "Ryan-Low@example.com"
+  } ]
+} ], [ "Entity.Account", {
+  "active" : true,
+  "username" : "staff19",
+  "password" : "staff19",
+  "type" : 1,
+  "userProfile" : [ "Entity.Profile", {
+    "active" : false,
+    "firstName" : "Emily",
+    "lastName" : "Tan",
+    "gender" : "Male",
+    "age" : 22,
+    "phoneNo" : "92791933",
+    "email" : "Emily-Tan@hotmail.com"
+  } ]
+} ], [ "Entity.Account", {
+  "active" : true,
+  "username" : "Matthew-Chua",
+  "password" : "password",
+  "type" : 0,
+  "userProfile" : [ "Entity.CustProfile", {
+    "firstName" : "Matthew",
+    "lastName" : "Chua",
+    "gender" : "Male",
+    "age" : 75,
+    "phoneNo" : "83237208",
+    "email" : "Matthew-Chua@gmail.com",
+    "genre" : "Fantasy",
+    "active" : false,
+    "loyaltyPoints" : 9
+  } ]
+} ], [ "Entity.Account", {
+  "active" : true,
+  "username" : "Joshua-Ong",
+  "password" : "password",
+  "type" : 0,
+  "userProfile" : [ "Entity.CustProfile", {
+    "firstName" : "Joshua",
+    "lastName" : "Ong",
+    "gender" : "Female",
+    "age" : 31,
+    "phoneNo" : "99049057",
+    "email" : "Joshua-Ong@outlook.com",
+    "genre" : "Fantasy",
+    "active" : false,
+    "loyaltyPoints" : 0
+  } ]
+} ], [ "Entity.Account", {
+  "active" : true,
+  "username" : "Isaac-Lee",
+  "password" : "password",
+  "type" : 0,
+  "userProfile" : [ "Entity.CustProfile", {
+    "firstName" : "Isaac",
+    "lastName" : "Lee",
+    "gender" : "Male",
+    "age" : 53,
+    "phoneNo" : "94659327",
+    "email" : "Isaac-Lee@outlook.com",
+    "genre" : "Romance",
+    "active" : false,
+    "loyaltyPoints" : 0
+  } ]
+} ], [ "Entity.Account", {
+  "active" : true,
+  "username" : "Olivia-Ang",
+  "password" : "password",
+  "type" : 0,
+  "userProfile" : [ "Entity.CustProfile", {
+    "firstName" : "Olivia",
+    "lastName" : "Ang",
+    "gender" : "Male",
+    "age" : 21,
+    "phoneNo" : "91716715",
+    "email" : "Olivia-Ang@hotmail.com",
+    "genre" : "Romance",
+    "active" : false,
+    "loyaltyPoints" : 8
+  } ]
+} ], [ "Entity.Account", {
+  "active" : true,
+  "username" : "Lucas-Teo",
+  "password" : "password",
+  "type" : 0,
+  "userProfile" : [ "Entity.CustProfile", {
+    "firstName" : "Lucas",
+    "lastName" : "Teo",
+    "gender" : "Male",
+    "age" : 58,
+    "phoneNo" : "95613338",
+    "email" : "Lucas-Teo@example.com",
+    "genre" : "Adventure",
+    "active" : false,
+    "loyaltyPoints" : 0
+  } ]
+} ], [ "Entity.Account", {
+  "active" : true,
+  "username" : "Isabella-Poh",
+  "password" : "password",
+  "type" : 0,
+  "userProfile" : [ "Entity.CustProfile", {
+    "firstName" : "Isabella",
+    "lastName" : "Poh",
+    "gender" : "Female",
+    "age" : 56,
+    "phoneNo" : "91229507",
+    "email" : "Isabella-Poh@example.com",
+    "genre" : "Adventure",
+    "active" : false,
+    "loyaltyPoints" : 0
+  } ]
+} ], [ "Entity.Account", {
+  "active" : true,
+  "username" : "Gabriel-Loh",
+  "password" : "password",
+  "type" : 0,
+  "userProfile" : [ "Entity.CustProfile", {
+    "firstName" : "Gabriel",
+    "lastName" : "Loh",
+    "gender" : "Male",
+    "age" : 75,
+    "phoneNo" : "99449601",
+    "email" : "Gabriel-Loh@hotmail.com",
+    "genre" : "Drama",
+    "active" : false,
+    "loyaltyPoints" : 0
+  } ]
+} ], [ "Entity.Account", {
+  "active" : true,
+  "username" : "Hannah-Yeo",
+  "password" : "password",
+  "type" : 0,
+  "userProfile" : [ "Entity.CustProfile", {
+    "firstName" : "Hannah",
+    "lastName" : "Yeo",
+    "gender" : "Female",
+    "age" : 31,
+    "phoneNo" : "87575697",
+    "email" : "Hannah-Yeo@gmail.com",
+    "genre" : "Historical",
+    "active" : false,
+    "loyaltyPoints" : 0
+  } ]
+} ], [ "Entity.Account", {
+  "active" : true,
+  "username" : "Ryan-Poh",
+  "password" : "password",
+  "type" : 0,
+  "userProfile" : [ "Entity.CustProfile", {
+    "firstName" : "Ryan",
+    "lastName" : "Poh",
+    "gender" : "Female",
+    "age" : 46,
+    "phoneNo" : "97985752",
+    "email" : "Ryan-Poh@outlook.com",
+    "genre" : "Crime",
+    "active" : false,
+    "loyaltyPoints" : 0
+  } ]
+} ], [ "Entity.Account", {
+  "active" : true,
+  "username" : "Sophia-Tay",
+  "password" : "password",
+  "type" : 0,
+  "userProfile" : [ "Entity.CustProfile", {
+    "firstName" : "Sophia",
+    "lastName" : "Tay",
+    "gender" : "Male",
+    "age" : 28,
+    "phoneNo" : "81157644",
+    "email" : "Sophia-Tay@hotmail.com",
+    "genre" : "Comedy",
+    "active" : false,
+    "loyaltyPoints" : 0
+  } ]
+} ], [ "Entity.Account", {
+  "active" : true,
+  "username" : "Sarah-Lim",
+  "password" : "password",
+  "type" : 0,
+  "userProfile" : [ "Entity.CustProfile", {
+    "firstName" : "Sarah",
+    "lastName" : "Lim",
+    "gender" : "Male",
+    "age" : 81,
+    "phoneNo" : "85682863",
+    "email" : "Sarah-Lim@example.com",
+    "genre" : "Historical",
+    "active" : false,
+    "loyaltyPoints" : 0
+  } ]
+} ], [ "Entity.Account", {
+  "active" : true,
+  "username" : "Ava-Teo",
+  "password" : "password",
+  "type" : 0,
+  "userProfile" : [ "Entity.CustProfile", {
+    "firstName" : "Ava",
+    "lastName" : "Teo",
+    "gender" : "Male",
+    "age" : 49,
+    "phoneNo" : "83452970",
+    "email" : "Ava-Teo@yahoo.com",
+    "genre" : "Romance",
+    "active" : false,
+    "loyaltyPoints" : 5
+  } ]
+} ], [ "Entity.Account", {
+  "active" : true,
+  "username" : "David-Wong",
+  "password" : "password",
+  "type" : 0,
+  "userProfile" : [ "Entity.CustProfile", {
+    "firstName" : "David",
+    "lastName" : "Wong",
+    "gender" : "Male",
+    "age" : 27,
+    "phoneNo" : "95364555",
+    "email" : "David-Wong@gmail.com",
+    "genre" : "Crime",
+    "active" : false,
+    "loyaltyPoints" : 2
+  } ]
+} ], [ "Entity.Account", {
+  "active" : true,
+  "username" : "Chloe-Toh",
+  "password" : "password",
+  "type" : 0,
+  "userProfile" : [ "Entity.CustProfile", {
+    "firstName" : "Chloe",
+    "lastName" : "Toh",
+    "gender" : "Female",
+    "age" : 85,
+    "phoneNo" : "99088837",
+    "email" : "Chloe-Toh@yahoo.com",
+    "genre" : "Action",
+    "active" : false,
+    "loyaltyPoints" : 0
+  } ]
+} ], [ "Entity.Account", {
+  "active" : true,
+  "username" : "Ava-Goh",
+  "password" : "password",
+  "type" : 0,
+  "userProfile" : [ "Entity.CustProfile", {
+    "firstName" : "Ava",
+    "lastName" : "Goh",
+    "gender" : "Female",
+    "age" : 47,
+    "phoneNo" : "95948270",
+    "email" : "Ava-Goh@yahoo.com",
+    "genre" : "Romance",
+    "active" : false,
+    "loyaltyPoints" : 0
+  } ]
+} ], [ "Entity.Account", {
+  "active" : true,
+  "username" : "Joshua-Teo",
+  "password" : "password",
+  "type" : 0,
+  "userProfile" : [ "Entity.CustProfile", {
+    "firstName" : "Joshua",
+    "lastName" : "Teo",
+    "gender" : "Female",
+    "age" : 60,
+    "phoneNo" : "92034006",
+    "email" : "Joshua-Teo@yahoo.com",
+    "genre" : "Crime",
+    "active" : false,
+    "loyaltyPoints" : 3
+  } ]
+} ], [ "Entity.Account", {
+  "active" : true,
+  "username" : "Chloe-Low",
+  "password" : "password",
+  "type" : 0,
+  "userProfile" : [ "Entity.CustProfile", {
+    "firstName" : "Chloe",
+    "lastName" : "Low",
+    "gender" : "Female",
+    "age" : 33,
+    "phoneNo" : "89675808",
+    "email" : "Chloe-Low@hotmail.com",
+    "genre" : "Fantasy",
+    "active" : false,
+    "loyaltyPoints" : 0
+  } ]
+} ], [ "Entity.Account", {
+  "active" : true,
+  "username" : "Amelia-Lim",
+  "password" : "password",
+  "type" : 0,
+  "userProfile" : [ "Entity.CustProfile", {
+    "firstName" : "Amelia",
+    "lastName" : "Lim",
+    "gender" : "Male",
+    "age" : 59,
+    "phoneNo" : "88644336",
+    "email" : "Amelia-Lim@gmail.com",
+    "genre" : "Fantasy",
+    "active" : false,
+    "loyaltyPoints" : 0
+  } ]
+} ], [ "Entity.Account", {
+  "active" : true,
+  "username" : "Ethan-Wong",
+  "password" : "password",
+  "type" : 0,
+  "userProfile" : [ "Entity.CustProfile", {
+    "firstName" : "Ethan",
+    "lastName" : "Wong",
+    "gender" : "Male",
+    "age" : 75,
+    "phoneNo" : "91115931",
+    "email" : "Ethan-Wong@gmail.com",
+    "genre" : "Crime",
+    "active" : false,
+    "loyaltyPoints" : 1
+  } ]
+} ], [ "Entity.Account", {
+  "active" : true,
+  "username" : "Lucas-Tay",
+  "password" : "password",
+  "type" : 0,
+  "userProfile" : [ "Entity.CustProfile", {
+    "firstName" : "Lucas",
+    "lastName" : "Tay",
+    "gender" : "Male",
+    "age" : 22,
+    "phoneNo" : "97432517",
+    "email" : "Lucas-Tay@outlook.com",
+    "genre" : "Adventure",
+    "active" : false,
+    "loyaltyPoints" : 0
+  } ]
+} ], [ "Entity.Account", {
+  "active" : true,
+  "username" : "Emily-Lim",
+  "password" : "password",
+  "type" : 0,
+  "userProfile" : [ "Entity.CustProfile", {
+    "firstName" : "Emily",
+    "lastName" : "Lim",
+    "gender" : "Male",
+    "age" : 34,
+    "phoneNo" : "87951152",
+    "email" : "Emily-Lim@gmail.com",
+    "genre" : "Drama",
+    "active" : false,
+    "loyaltyPoints" : 0
+  } ]
+} ], [ "Entity.Account", {
+  "active" : true,
+  "username" : "Isaac-Neo",
+  "password" : "password",
+  "type" : 0,
+  "userProfile" : [ "Entity.CustProfile", {
+    "firstName" : "Isaac",
+    "lastName" : "Neo",
+    "gender" : "Female",
+    "age" : 76,
+    "phoneNo" : "98314220",
+    "email" : "Isaac-Neo@hotmail.com",
+    "genre" : "Comedy",
+    "active" : false,
+    "loyaltyPoints" : 0
+  } ]
+} ], [ "Entity.Account", {
+  "active" : true,
+  "username" : "Natalie-Tay",
+  "password" : "password",
+  "type" : 0,
+  "userProfile" : [ "Entity.CustProfile", {
+    "firstName" : "Natalie",
+    "lastName" : "Tay",
+    "gender" : "Male",
+    "age" : 28,
+    "phoneNo" : "81024483",
+    "email" : "Natalie-Tay@example.com",
+    "genre" : "Adventure",
+    "active" : false,
+    "loyaltyPoints" : 0
+  } ]
+} ], [ "Entity.Account", {
+  "active" : true,
+  "username" : "Gabriel-Tan",
+  "password" : "password",
+  "type" : 0,
+  "userProfile" : [ "Entity.CustProfile", {
+    "firstName" : "Gabriel",
+    "lastName" : "Tan",
+    "gender" : "Female",
+    "age" : 29,
+    "phoneNo" : "91914951",
+    "email" : "Gabriel-Tan@outlook.com",
+    "genre" : "Historical",
+    "active" : false,
+    "loyaltyPoints" : 0
+  } ]
+} ], [ "Entity.Account", {
+  "active" : true,
+  "username" : "Sophia-Yeo",
+  "password" : "password",
+  "type" : 0,
+  "userProfile" : [ "Entity.CustProfile", {
+    "firstName" : "Sophia",
+    "lastName" : "Yeo",
+    "gender" : "Female",
+    "age" : 49,
+    "phoneNo" : "84550933",
+    "email" : "Sophia-Yeo@gmail.com",
+    "genre" : "Horror",
+    "active" : false,
+    "loyaltyPoints" : 0
+  } ]
+} ], [ "Entity.Account", {
+  "active" : true,
+  "username" : "Noah-Lee",
+  "password" : "password",
+  "type" : 0,
+  "userProfile" : [ "Entity.CustProfile", {
+    "firstName" : "Noah",
+    "lastName" : "Lee",
+    "gender" : "Male",
+    "age" : 72,
+    "phoneNo" : "97704379",
+    "email" : "Noah-Lee@hotmail.com",
+    "genre" : "Horror",
+    "active" : false,
+    "loyaltyPoints" : 0
+  } ]
+} ], [ "Entity.Account", {
+  "active" : true,
+  "username" : "Aaron-Seow",
+  "password" : "password",
+  "type" : 0,
+  "userProfile" : [ "Entity.CustProfile", {
+    "firstName" : "Aaron",
+    "lastName" : "Seow",
+    "gender" : "Male",
+    "age" : 89,
+    "phoneNo" : "94898073",
+    "email" : "Aaron-Seow@gmail.com",
+    "genre" : "Historical",
+    "active" : false,
+    "loyaltyPoints" : 0
+  } ]
+} ], [ "Entity.Account", {
+  "active" : true,
+  "username" : "Sarah-Lee",
+  "password" : "password",
+  "type" : 0,
+  "userProfile" : [ "Entity.CustProfile", {
+    "firstName" : "Sarah",
+    "lastName" : "Lee",
+    "gender" : "Male",
+    "age" : 60,
+    "phoneNo" : "83501083",
+    "email" : "Sarah-Lee@gmail.com",
+    "genre" : "Crime",
+    "active" : false,
+    "loyaltyPoints" : 0
+  } ]
+} ], [ "Entity.Account", {
+  "active" : true,
+  "username" : "Amelia-Chua",
+  "password" : "password",
+  "type" : 0,
+  "userProfile" : [ "Entity.CustProfile", {
+    "firstName" : "Amelia",
+    "lastName" : "Chua",
+    "gender" : "Male",
+    "age" : 51,
+    "phoneNo" : "81773126",
+    "email" : "Amelia-Chua@outlook.com",
+    "genre" : "Action",
+    "active" : false,
+    "loyaltyPoints" : 0
+  } ]
+} ], [ "Entity.Account", {
+  "active" : true,
+  "username" : "Aaron-Teo",
+  "password" : "password",
+  "type" : 0,
+  "userProfile" : [ "Entity.CustProfile", {
+    "firstName" : "Aaron",
+    "lastName" : "Teo",
+    "gender" : "Female",
+    "age" : 88,
+    "phoneNo" : "95963083",
+    "email" : "Aaron-Teo@yahoo.com",
+    "genre" : "Fantasy",
+    "active" : false,
+    "loyaltyPoints" : 0
+  } ]
+} ], [ "Entity.Account", {
+  "active" : true,
+  "username" : "Mia-Teo",
+  "password" : "password",
+  "type" : 0,
+  "userProfile" : [ "Entity.CustProfile", {
+    "firstName" : "Mia",
+    "lastName" : "Teo",
+    "gender" : "Male",
+    "age" : 51,
+    "phoneNo" : "94109898",
+    "email" : "Mia-Teo@outlook.com",
+    "genre" : "Adventure",
+    "active" : false,
+    "loyaltyPoints" : 0
+  } ]
+} ], [ "Entity.Account", {
+  "active" : true,
+  "username" : "Gabriel-Lee",
+  "password" : "password",
+  "type" : 0,
+  "userProfile" : [ "Entity.CustProfile", {
+    "firstName" : "Gabriel",
+    "lastName" : "Lee",
+    "gender" : "Female",
+    "age" : 22,
+    "phoneNo" : "82477006",
+    "email" : "Gabriel-Lee@yahoo.com",
+    "genre" : "Adventure",
+    "active" : false,
+    "loyaltyPoints" : 0
+  } ]
+} ], [ "Entity.Account", {
+  "active" : true,
+  "username" : "David-Ng",
+  "password" : "password",
+  "type" : 0,
+  "userProfile" : [ "Entity.CustProfile", {
+    "firstName" : "David",
+    "lastName" : "Ng",
+    "gender" : "Female",
+    "age" : 53,
+    "phoneNo" : "98670620",
+    "email" : "David-Ng@hotmail.com",
+    "genre" : "Adventure",
+    "active" : false,
+    "loyaltyPoints" : 0
+  } ]
+} ], [ "Entity.Account", {
+  "active" : true,
+  "username" : "Gabriel-Yeo",
+  "password" : "password",
+  "type" : 0,
+  "userProfile" : [ "Entity.CustProfile", {
+    "firstName" : "Gabriel",
+    "lastName" : "Yeo",
+    "gender" : "Female",
+    "age" : 62,
+    "phoneNo" : "95630133",
+    "email" : "Gabriel-Yeo@yahoo.com",
+    "genre" : "Fantasy",
+    "active" : false,
+    "loyaltyPoints" : 0
+  } ]
+} ], [ "Entity.Account", {
+  "active" : true,
+  "username" : "Chloe-Ng",
+  "password" : "password",
+  "type" : 0,
+  "userProfile" : [ "Entity.CustProfile", {
+    "firstName" : "Chloe",
+    "lastName" : "Ng",
+    "gender" : "Male",
+    "age" : 92,
+    "phoneNo" : "87022198",
+    "email" : "Chloe-Ng@outlook.com",
+    "genre" : "Crime",
+    "active" : false,
+    "loyaltyPoints" : 0
+  } ]
+} ], [ "Entity.Account", {
+  "active" : true,
+  "username" : "Aaron-Poh",
+  "password" : "password",
+  "type" : 0,
+  "userProfile" : [ "Entity.CustProfile", {
+    "firstName" : "Aaron",
+    "lastName" : "Poh",
+    "gender" : "Male",
+    "age" : 94,
+    "phoneNo" : "98391844",
+    "email" : "Aaron-Poh@hotmail.com",
+    "genre" : "Action",
+    "active" : false,
+    "loyaltyPoints" : 0
+  } ]
+} ], [ "Entity.Account", {
+  "active" : true,
+  "username" : "Mia-Chua",
+  "password" : "password",
+  "type" : 0,
+  "userProfile" : [ "Entity.CustProfile", {
+    "firstName" : "Mia",
+    "lastName" : "Chua",
+    "gender" : "Male",
+    "age" : 41,
+    "phoneNo" : "91414746",
+    "email" : "Mia-Chua@gmail.com",
+    "genre" : "Fantasy",
+    "active" : false,
+    "loyaltyPoints" : 0
+  } ]
+} ], [ "Entity.Account", {
+  "active" : true,
+  "username" : "Joshua-Goh",
+  "password" : "password",
+  "type" : 0,
+  "userProfile" : [ "Entity.CustProfile", {
+    "firstName" : "Joshua",
+    "lastName" : "Goh",
+    "gender" : "Female",
+    "age" : 40,
+    "phoneNo" : "85631243",
+    "email" : "Joshua-Goh@outlook.com",
+    "genre" : "Horror",
+    "active" : false,
+    "loyaltyPoints" : 0
+  } ]
+} ], [ "Entity.Account", {
+  "active" : true,
+  "username" : "Mia-Koh",
+  "password" : "password",
+  "type" : 0,
+  "userProfile" : [ "Entity.CustProfile", {
+    "firstName" : "Mia",
+    "lastName" : "Koh",
+    "gender" : "Male",
+    "age" : 19,
+    "phoneNo" : "92190797",
+    "email" : "Mia-Koh@hotmail.com",
+    "genre" : "Adventure",
+    "active" : false,
+    "loyaltyPoints" : 0
+  } ]
+} ], [ "Entity.Account", {
+  "active" : true,
+  "username" : "Ethan-Lim",
+  "password" : "password",
+  "type" : 0,
+  "userProfile" : [ "Entity.CustProfile", {
+    "firstName" : "Ethan",
+    "lastName" : "Lim",
+    "gender" : "Female",
+    "age" : 89,
+    "phoneNo" : "91842261",
+    "email" : "Ethan-Lim@example.com",
+    "genre" : "Action",
+    "active" : false,
+    "loyaltyPoints" : 0
+  } ]
+} ], [ "Entity.Account", {
+  "active" : true,
+  "username" : "Ryan-Yeo",
+  "password" : "password",
+  "type" : 0,
+  "userProfile" : [ "Entity.CustProfile", {
+    "firstName" : "Ryan",
+    "lastName" : "Yeo",
+    "gender" : "Male",
+    "age" : 46,
+    "phoneNo" : "92493393",
+    "email" : "Ryan-Yeo@yahoo.com",
+    "genre" : "Comedy",
+    "active" : false,
+    "loyaltyPoints" : 0
+  } ]
+} ], [ "Entity.Account", {
+  "active" : true,
+  "username" : "Isaac-Teo",
+  "password" : "password",
+  "type" : 0,
+  "userProfile" : [ "Entity.CustProfile", {
+    "firstName" : "Isaac",
+    "lastName" : "Teo",
+    "gender" : "Female",
+    "age" : 46,
+    "phoneNo" : "91225394",
+    "email" : "Isaac-Teo@hotmail.com",
+    "genre" : "Crime",
+    "active" : false,
+    "loyaltyPoints" : 0
+  } ]
+} ], [ "Entity.Account", {
+  "active" : true,
+  "username" : "Ethan-Chua",
+  "password" : "password",
+  "type" : 0,
+  "userProfile" : [ "Entity.CustProfile", {
+    "firstName" : "Ethan",
+    "lastName" : "Chua",
+    "gender" : "Female",
+    "age" : 94,
+    "phoneNo" : "82243314",
+    "email" : "Ethan-Chua@example.com",
+    "genre" : "Drama",
+    "active" : false,
+    "loyaltyPoints" : 0
+  } ]
+} ], [ "Entity.Account", {
+  "active" : true,
+  "username" : "Isabella-Ang",
+  "password" : "password",
+  "type" : 0,
+  "userProfile" : [ "Entity.CustProfile", {
+    "firstName" : "Isabella",
+    "lastName" : "Ang",
+    "gender" : "Male",
+    "age" : 44,
+    "phoneNo" : "87248920",
+    "email" : "Isabella-Ang@example.com",
+    "genre" : "Drama",
+    "active" : false,
+    "loyaltyPoints" : 0
+  } ]
+} ], [ "Entity.Account", {
+  "active" : true,
+  "username" : "Sarah-Seow",
+  "password" : "password",
+  "type" : 0,
+  "userProfile" : [ "Entity.CustProfile", {
+    "firstName" : "Sarah",
+    "lastName" : "Seow",
+    "gender" : "Male",
+    "age" : 58,
+    "phoneNo" : "99493259",
+    "email" : "Sarah-Seow@outlook.com",
+    "genre" : "Historical",
+    "active" : false,
+    "loyaltyPoints" : 0
+  } ]
+} ], [ "Entity.Account", {
+  "active" : true,
+  "username" : "Natalie-Tan",
+  "password" : "password",
+  "type" : 0,
+  "userProfile" : [ "Entity.CustProfile", {
+    "firstName" : "Natalie",
+    "lastName" : "Tan",
+    "gender" : "Female",
+    "age" : 75,
+    "phoneNo" : "99911879",
+    "email" : "Natalie-Tan@gmail.com",
+    "genre" : "Comedy",
+    "active" : false,
+    "loyaltyPoints" : 0
+  } ]
+} ], [ "Entity.Account", {
+  "active" : true,
+  "username" : "Chloe-Ang",
+  "password" : "password",
+  "type" : 0,
+  "userProfile" : [ "Entity.CustProfile", {
+    "firstName" : "Chloe",
+    "lastName" : "Ang",
+    "gender" : "Female",
+    "age" : 50,
+    "phoneNo" : "84559690",
+    "email" : "Chloe-Ang@gmail.com",
+    "genre" : "Horror",
+    "active" : false,
+    "loyaltyPoints" : 0
+  } ]
+} ], [ "Entity.Account", {
+  "active" : true,
+  "username" : "Daniel-Lim",
+  "password" : "password",
+  "type" : 0,
+  "userProfile" : [ "Entity.CustProfile", {
+    "firstName" : "Daniel",
+    "lastName" : "Lim",
+    "gender" : "Male",
+    "age" : 63,
+    "phoneNo" : "91806646",
+    "email" : "Daniel-Lim@example.com",
+    "genre" : "Action",
+    "active" : false,
+    "loyaltyPoints" : 0
+  } ]
+} ], [ "Entity.Account", {
+  "active" : true,
+  "username" : "Sarah-Wong",
+  "password" : "password",
+  "type" : 0,
+  "userProfile" : [ "Entity.CustProfile", {
+    "firstName" : "Sarah",
+    "lastName" : "Wong",
+    "gender" : "Male",
+    "age" : 71,
+    "phoneNo" : "96111485",
+    "email" : "Sarah-Wong@yahoo.com",
+    "genre" : "Action",
+    "active" : false,
+    "loyaltyPoints" : 0
+  } ]
+} ], [ "Entity.Account", {
+  "active" : true,
+  "username" : "Olivia-Ong",
+  "password" : "password",
+  "type" : 0,
+  "userProfile" : [ "Entity.CustProfile", {
+    "firstName" : "Olivia",
+    "lastName" : "Ong",
+    "gender" : "Male",
+    "age" : 89,
+    "phoneNo" : "94910474",
+    "email" : "Olivia-Ong@hotmail.com",
+    "genre" : "Adventure",
+    "active" : false,
+    "loyaltyPoints" : 0
+  } ]
+} ], [ "Entity.Account", {
+  "active" : true,
+  "username" : "Emma-Goh",
+  "password" : "password",
+  "type" : 0,
+  "userProfile" : [ "Entity.CustProfile", {
+    "firstName" : "Emma",
+    "lastName" : "Goh",
+    "gender" : "Male",
+    "age" : 33,
+    "phoneNo" : "91622429",
+    "email" : "Emma-Goh@outlook.com",
+    "genre" : "Fantasy",
+    "active" : false,
+    "loyaltyPoints" : 0
+  } ]
+} ], [ "Entity.Account", {
+  "active" : true,
+  "username" : "Amelia-Loh",
+  "password" : "password",
+  "type" : 0,
+  "userProfile" : [ "Entity.CustProfile", {
+    "firstName" : "Amelia",
+    "lastName" : "Loh",
+    "gender" : "Male",
+    "age" : 83,
+    "phoneNo" : "97243563",
+    "email" : "Amelia-Loh@example.com",
+    "genre" : "Horror",
+    "active" : false,
+    "loyaltyPoints" : 0
+  } ]
+} ], [ "Entity.Account", {
+  "active" : true,
+  "username" : "Aaron-Yeo",
+  "password" : "password",
+  "type" : 0,
+  "userProfile" : [ "Entity.CustProfile", {
+    "firstName" : "Aaron",
+    "lastName" : "Yeo",
+    "gender" : "Male",
+    "age" : 72,
+    "phoneNo" : "94441637",
+    "email" : "Aaron-Yeo@hotmail.com",
+    "genre" : "Adventure",
+    "active" : false,
+    "loyaltyPoints" : 0
+  } ]
+} ], [ "Entity.Account", {
+  "active" : true,
+  "username" : "Hannah-Koh",
+  "password" : "password",
+  "type" : 0,
+  "userProfile" : [ "Entity.CustProfile", {
+    "firstName" : "Hannah",
+    "lastName" : "Koh",
+    "gender" : "Female",
+    "age" : 85,
+    "phoneNo" : "83592896",
+    "email" : "Hannah-Koh@example.com",
+    "genre" : "Action",
+    "active" : false,
+    "loyaltyPoints" : 0
+  } ]
+} ], [ "Entity.Account", {
+  "active" : true,
+  "username" : "Emily-Seow",
+  "password" : "password",
+  "type" : 0,
+  "userProfile" : [ "Entity.CustProfile", {
+    "firstName" : "Emily",
+    "lastName" : "Seow",
+    "gender" : "Male",
+    "age" : 96,
+    "phoneNo" : "99306031",
+    "email" : "Emily-Seow@example.com",
+    "genre" : "Historical",
+    "active" : false,
+    "loyaltyPoints" : 0
+  } ]
+} ], [ "Entity.Account", {
+  "active" : true,
+  "username" : "Lucas-Tan",
+  "password" : "password",
+  "type" : 0,
+  "userProfile" : [ "Entity.CustProfile", {
+    "firstName" : "Lucas",
+    "lastName" : "Tan",
+    "gender" : "Female",
+    "age" : 47,
+    "phoneNo" : "85784675",
+    "email" : "Lucas-Tan@gmail.com",
+    "genre" : "Action",
+    "active" : false,
+    "loyaltyPoints" : 0
+  } ]
+} ], [ "Entity.Account", {
+  "active" : true,
+  "username" : "Ethan-Loh",
+  "password" : "password",
+  "type" : 0,
+  "userProfile" : [ "Entity.CustProfile", {
+    "firstName" : "Ethan",
+    "lastName" : "Loh",
+    "gender" : "Male",
+    "age" : 71,
+    "phoneNo" : "97807896",
+    "email" : "Ethan-Loh@outlook.com",
+    "genre" : "Fantasy",
+    "active" : false,
+    "loyaltyPoints" : 0
+  } ]
+} ], [ "Entity.Account", {
+  "active" : true,
+  "username" : "Lucas-Lim",
+  "password" : "password",
+  "type" : 0,
+  "userProfile" : [ "Entity.CustProfile", {
+    "firstName" : "Lucas",
+    "lastName" : "Lim",
+    "gender" : "Female",
+    "age" : 65,
+    "phoneNo" : "91006295",
+    "email" : "Lucas-Lim@gmail.com",
+    "genre" : "Adventure",
+    "active" : false,
+    "loyaltyPoints" : 0
+  } ]
+} ], [ "Entity.Account", {
+  "active" : true,
+  "username" : "Noah-Ng",
+  "password" : "password",
+  "type" : 0,
+  "userProfile" : [ "Entity.CustProfile", {
+    "firstName" : "Noah",
+    "lastName" : "Ng",
+    "gender" : "Male",
+    "age" : 20,
+    "phoneNo" : "83044963",
+    "email" : "Noah-Ng@hotmail.com",
+    "genre" : "Drama",
+    "active" : false,
+    "loyaltyPoints" : 0
+  } ]
+} ], [ "Entity.Account", {
+  "active" : true,
+  "username" : "David-Seow",
+  "password" : "password",
+  "type" : 0,
+  "userProfile" : [ "Entity.CustProfile", {
+    "firstName" : "David",
+    "lastName" : "Seow",
+    "gender" : "Male",
+    "age" : 70,
+    "phoneNo" : "83119989",
+    "email" : "David-Seow@yahoo.com",
+    "genre" : "Adventure",
+    "active" : false,
+    "loyaltyPoints" : 0
+  } ]
+} ], [ "Entity.Account", {
+  "active" : true,
+  "username" : "Ryan-Chua",
+  "password" : "password",
+  "type" : 0,
+  "userProfile" : [ "Entity.CustProfile", {
+    "firstName" : "Ryan",
+    "lastName" : "Chua",
+    "gender" : "Female",
+    "age" : 92,
+    "phoneNo" : "89863692",
+    "email" : "Ryan-Chua@outlook.com",
+    "genre" : "Action",
+    "active" : false,
+    "loyaltyPoints" : 0
+  } ]
+} ], [ "Entity.Account", {
+  "active" : true,
+  "username" : "David-Ang",
+  "password" : "password",
+  "type" : 0,
+  "userProfile" : [ "Entity.CustProfile", {
+    "firstName" : "David",
+    "lastName" : "Ang",
+    "gender" : "Male",
+    "age" : 56,
+    "phoneNo" : "88767026",
+    "email" : "David-Ang@hotmail.com",
+    "genre" : "Historical",
+    "active" : false,
+    "loyaltyPoints" : 0
+  } ]
+} ], [ "Entity.Account", {
+  "active" : true,
+  "username" : "Victoria-Loh",
+  "password" : "password",
+  "type" : 0,
+  "userProfile" : [ "Entity.CustProfile", {
+    "firstName" : "Victoria",
+    "lastName" : "Loh",
+    "gender" : "Male",
+    "age" : 41,
+    "phoneNo" : "92040203",
+    "email" : "Victoria-Loh@gmail.com",
+    "genre" : "Comedy",
+    "active" : false,
+    "loyaltyPoints" : 0
+  } ]
+} ], [ "Entity.Account", {
+  "active" : true,
+  "username" : "Isaac-Tan",
+  "password" : "password",
+  "type" : 0,
+  "userProfile" : [ "Entity.CustProfile", {
+    "firstName" : "Isaac",
+    "lastName" : "Tan",
+    "gender" : "Male",
+    "age" : 37,
+    "phoneNo" : "88345376",
+    "email" : "Isaac-Tan@outlook.com",
+    "genre" : "Crime",
+    "active" : false,
+    "loyaltyPoints" : 0
+  } ]
+} ], [ "Entity.Account", {
+  "active" : true,
+  "username" : "Matthew-Tay",
+  "password" : "password",
+  "type" : 0,
+  "userProfile" : [ "Entity.CustProfile", {
+    "firstName" : "Matthew",
+    "lastName" : "Tay",
+    "gender" : "Male",
+    "age" : 27,
+    "phoneNo" : "86110949",
+    "email" : "Matthew-Tay@hotmail.com",
+    "genre" : "Romance",
+    "active" : false,
+    "loyaltyPoints" : 0
+  } ]
+} ], [ "Entity.Account", {
+  "active" : true,
+  "username" : "Emma-Lim",
+  "password" : "password",
+  "type" : 0,
+  "userProfile" : [ "Entity.CustProfile", {
+    "firstName" : "Emma",
+    "lastName" : "Lim",
+    "gender" : "Male",
+    "age" : 76,
+    "phoneNo" : "85462429",
+    "email" : "Emma-Lim@hotmail.com",
+    "genre" : "Romance",
+    "active" : false,
+    "loyaltyPoints" : 0
+  } ]
+} ], [ "Entity.Account", {
+  "active" : true,
+  "username" : "Joshua-Neo",
+  "password" : "password",
+  "type" : 0,
+  "userProfile" : [ "Entity.CustProfile", {
+    "firstName" : "Joshua",
+    "lastName" : "Neo",
+    "gender" : "Female",
+    "age" : 31,
+    "phoneNo" : "81973031",
+    "email" : "Joshua-Neo@hotmail.com",
+    "genre" : "Action",
+    "active" : false,
+    "loyaltyPoints" : 0
+  } ]
+} ], [ "Entity.Account", {
+  "active" : true,
+  "username" : "Sarah-Ong",
+  "password" : "password",
+  "type" : 0,
+  "userProfile" : [ "Entity.CustProfile", {
+    "firstName" : "Sarah",
+    "lastName" : "Ong",
+    "gender" : "Male",
+    "age" : 24,
+    "phoneNo" : "86647644",
+    "email" : "Sarah-Ong@yahoo.com",
+    "genre" : "Action",
+    "active" : false,
+    "loyaltyPoints" : 0
+  } ]
+} ], [ "Entity.Account", {
+  "active" : true,
+  "username" : "Ethan-Toh",
+  "password" : "password",
+  "type" : 0,
+  "userProfile" : [ "Entity.CustProfile", {
+    "firstName" : "Ethan",
+    "lastName" : "Toh",
+    "gender" : "Female",
+    "age" : 75,
+    "phoneNo" : "83061893",
+    "email" : "Ethan-Toh@hotmail.com",
+    "genre" : "Action",
+    "active" : false,
+    "loyaltyPoints" : 0
+  } ]
+} ], [ "Entity.Account", {
+  "active" : true,
+  "username" : "Matthew-Low",
+  "password" : "password",
+  "type" : 0,
+  "userProfile" : [ "Entity.CustProfile", {
+    "firstName" : "Matthew",
+    "lastName" : "Low",
+    "gender" : "Male",
+    "age" : 43,
+    "phoneNo" : "87605168",
+    "email" : "Matthew-Low@gmail.com",
+    "genre" : "Adventure",
+    "active" : false,
+    "loyaltyPoints" : 0
+  } ]
+} ], [ "Entity.Account", {
+  "active" : true,
+  "username" : "Noah-Wong",
+  "password" : "password",
+  "type" : 0,
+  "userProfile" : [ "Entity.CustProfile", {
+    "firstName" : "Noah",
+    "lastName" : "Wong",
+    "gender" : "Female",
+    "age" : 49,
+    "phoneNo" : "93915926",
+    "email" : "Noah-Wong@yahoo.com",
+    "genre" : "Comedy",
+    "active" : false,
+    "loyaltyPoints" : 0
+  } ]
+} ], [ "Entity.Account", {
+  "active" : true,
+  "username" : "Isaac-Tay",
+  "password" : "password",
+  "type" : 0,
+  "userProfile" : [ "Entity.CustProfile", {
+    "firstName" : "Isaac",
+    "lastName" : "Tay",
+    "gender" : "Female",
+    "age" : 28,
+    "phoneNo" : "84193528",
+    "email" : "Isaac-Tay@outlook.com",
+    "genre" : "Historical",
+    "active" : false,
+    "loyaltyPoints" : 0
+  } ]
+} ], [ "Entity.Account", {
+  "active" : true,
+  "username" : "Nathan-Poh",
+  "password" : "password",
+  "type" : 0,
+  "userProfile" : [ "Entity.CustProfile", {
+    "firstName" : "Nathan",
+    "lastName" : "Poh",
+    "gender" : "Female",
+    "age" : 63,
+    "phoneNo" : "96354555",
+    "email" : "Nathan-Poh@outlook.com",
+    "genre" : "Romance",
+    "active" : false,
+    "loyaltyPoints" : 0
+  } ]
+} ], [ "Entity.Account", {
+  "active" : true,
+  "username" : "Victoria-Chua",
+  "password" : "password",
+  "type" : 0,
+  "userProfile" : [ "Entity.CustProfile", {
+    "firstName" : "Victoria",
+    "lastName" : "Chua",
+    "gender" : "Female",
+    "age" : 80,
+    "phoneNo" : "92171947",
+    "email" : "Victoria-Chua@example.com",
+    "genre" : "Romance",
+    "active" : false,
+    "loyaltyPoints" : 0
+  } ]
+} ], [ "Entity.Account", {
+  "active" : true,
+  "username" : "Noah-Lim",
+  "password" : "password",
+  "type" : 0,
+  "userProfile" : [ "Entity.CustProfile", {
+    "firstName" : "Noah",
+    "lastName" : "Lim",
+    "gender" : "Male",
+    "age" : 51,
+    "phoneNo" : "82108713",
+    "email" : "Noah-Lim@example.com",
+    "genre" : "Action",
+    "active" : false,
+    "loyaltyPoints" : 0
+  } ]
+} ], [ "Entity.Account", {
+  "active" : true,
+  "username" : "Ryan-Seah",
+  "password" : "password",
+  "type" : 0,
+  "userProfile" : [ "Entity.CustProfile", {
+    "firstName" : "Ryan",
+    "lastName" : "Seah",
+    "gender" : "Female",
+    "age" : 47,
+    "phoneNo" : "85558027",
+    "email" : "Ryan-Seah@outlook.com",
+    "genre" : "Romance",
+    "active" : false,
+    "loyaltyPoints" : 0
+  } ]
+} ], [ "Entity.Account", {
+  "active" : true,
+  "username" : "Nathan-Lim",
+  "password" : "password",
+  "type" : 0,
+  "userProfile" : [ "Entity.CustProfile", {
+    "firstName" : "Nathan",
+    "lastName" : "Lim",
+    "gender" : "Male",
+    "age" : 82,
+    "phoneNo" : "96172904",
+    "email" : "Nathan-Lim@example.com",
+    "genre" : "Fantasy",
+    "active" : false,
+    "loyaltyPoints" : 0
+  } ]
+} ], [ "Entity.Account", {
+  "active" : true,
+  "username" : "Olivia-Koh",
+  "password" : "password",
+  "type" : 0,
+  "userProfile" : [ "Entity.CustProfile", {
+    "firstName" : "Olivia",
+    "lastName" : "Koh",
+    "gender" : "Male",
+    "age" : 38,
+    "phoneNo" : "99370293",
+    "email" : "Olivia-Koh@outlook.com",
+    "genre" : "Fantasy",
+    "active" : false,
+    "loyaltyPoints" : 0
+  } ]
+} ], [ "Entity.Account", {
+  "active" : true,
+  "username" : "Sarah-Toh",
+  "password" : "password",
+  "type" : 0,
+  "userProfile" : [ "Entity.CustProfile", {
+    "firstName" : "Sarah",
+    "lastName" : "Toh",
+    "gender" : "Male",
+    "age" : 55,
+    "phoneNo" : "84260603",
+    "email" : "Sarah-Toh@example.com",
+    "genre" : "Comedy",
+    "active" : false,
+    "loyaltyPoints" : 0
+  } ]
+} ], [ "Entity.Account", {
+  "active" : true,
+  "username" : "Emily-Tay",
+  "password" : "password",
+  "type" : 0,
+  "userProfile" : [ "Entity.CustProfile", {
+    "firstName" : "Emily",
+    "lastName" : "Tay",
+    "gender" : "Female",
+    "age" : 68,
+    "phoneNo" : "94953170",
+    "email" : "Emily-Tay@yahoo.com",
+    "genre" : "Romance",
+    "active" : false,
+    "loyaltyPoints" : 0
+  } ]
+} ], [ "Entity.Account", {
+  "active" : true,
+  "username" : "Daniel-Wong",
+  "password" : "password",
+  "type" : 0,
+  "userProfile" : [ "Entity.CustProfile", {
+    "firstName" : "Daniel",
+    "lastName" : "Wong",
+    "gender" : "Male",
+    "age" : 84,
+    "phoneNo" : "82535351",
+    "email" : "Daniel-Wong@gmail.com",
+    "genre" : "Drama",
+    "active" : false,
+    "loyaltyPoints" : 0
+  } ]
+} ], [ "Entity.Account", {
+  "active" : true,
+  "username" : "Olivia-Lim",
+  "password" : "password",
+  "type" : 0,
+  "userProfile" : [ "Entity.CustProfile", {
+    "firstName" : "Olivia",
+    "lastName" : "Lim",
+    "gender" : "Male",
+    "age" : 56,
+    "phoneNo" : "81011803",
+    "email" : "Olivia-Lim@outlook.com",
+    "genre" : "Historical",
+    "active" : false,
+    "loyaltyPoints" : 0
+  } ]
+} ], [ "Entity.Account", {
+  "active" : true,
+  "username" : "Natalie-Wong",
+  "password" : "password",
+  "type" : 0,
+  "userProfile" : [ "Entity.CustProfile", {
+    "firstName" : "Natalie",
+    "lastName" : "Wong",
+    "gender" : "Female",
+    "age" : 60,
+    "phoneNo" : "91246815",
+    "email" : "Natalie-Wong@hotmail.com",
+    "genre" : "Romance",
+    "active" : false,
+    "loyaltyPoints" : 0
+  } ]
+} ], [ "Entity.Account", {
+  "active" : true,
+  "username" : "Hannah-Loh",
+  "password" : "password",
+  "type" : 0,
+  "userProfile" : [ "Entity.CustProfile", {
+    "firstName" : "Hannah",
+    "lastName" : "Loh",
+    "gender" : "Female",
+    "age" : 82,
+    "phoneNo" : "84403231",
+    "email" : "Hannah-Loh@hotmail.com",
+    "genre" : "Horror",
+    "active" : false,
+    "loyaltyPoints" : 0
+  } ]
+} ], [ "Entity.Account", {
+  "active" : true,
+  "username" : "Amelia-Tay",
+  "password" : "password",
+  "type" : 0,
+  "userProfile" : [ "Entity.CustProfile", {
+    "firstName" : "Amelia",
+    "lastName" : "Tay",
+    "gender" : "Male",
+    "age" : 27,
+    "phoneNo" : "85235130",
+    "email" : "Amelia-Tay@hotmail.com",
+    "genre" : "Action",
+    "active" : false,
+    "loyaltyPoints" : 0
+  } ]
+} ], [ "Entity.Account", {
+  "active" : true,
+  "username" : "Gabriel-Low",
+  "password" : "password",
+  "type" : 0,
+  "userProfile" : [ "Entity.CustProfile", {
+    "firstName" : "Gabriel",
+    "lastName" : "Low",
+    "gender" : "Female",
+    "age" : 19,
+    "phoneNo" : "97944478",
+    "email" : "Gabriel-Low@gmail.com",
+    "genre" : "Fantasy",
+    "active" : false,
+    "loyaltyPoints" : 0
+  } ]
+} ], [ "Entity.Account", {
+  "active" : true,
+  "username" : "Benjamin-Koh",
+  "password" : "password",
+  "type" : 0,
+  "userProfile" : [ "Entity.CustProfile", {
+    "firstName" : "Benjamin",
+    "lastName" : "Koh",
+    "gender" : "Female",
+    "age" : 36,
+    "phoneNo" : "88184146",
+    "email" : "Benjamin-Koh@example.com",
+    "genre" : "Comedy",
+    "active" : false,
+    "loyaltyPoints" : 0
+  } ]
+} ], [ "Entity.Account", {
+  "active" : true,
+  "username" : "Matthew-Tan",
+  "password" : "password",
+  "type" : 0,
+  "userProfile" : [ "Entity.CustProfile", {
+    "firstName" : "Matthew",
+    "lastName" : "Tan",
+    "gender" : "Male",
+    "age" : 60,
+    "phoneNo" : "96025304",
+    "email" : "Matthew-Tan@gmail.com",
+    "genre" : "Fantasy",
+    "active" : false,
+    "loyaltyPoints" : 0
+  } ]
+} ], [ "Entity.Account", {
+  "active" : true,
+  "username" : "Sarah-Goh",
+  "password" : "password",
+  "type" : 0,
+  "userProfile" : [ "Entity.CustProfile", {
+    "firstName" : "Sarah",
+    "lastName" : "Goh",
+    "gender" : "Female",
+    "age" : 56,
+    "phoneNo" : "93675293",
+    "email" : "Sarah-Goh@gmail.com",
+    "genre" : "Historical",
+    "active" : false,
+    "loyaltyPoints" : 0
+  } ]
+} ], [ "Entity.Account", {
+  "active" : true,
+  "username" : "Lucas-Low",
+  "password" : "password",
+  "type" : 0,
+  "userProfile" : [ "Entity.CustProfile", {
+    "firstName" : "Lucas",
+    "lastName" : "Low",
+    "gender" : "Female",
+    "age" : 29,
+    "phoneNo" : "89109316",
+    "email" : "Lucas-Low@outlook.com",
+    "genre" : "Action",
+    "active" : false,
+    "loyaltyPoints" : 0
+  } ]
+} ], [ "Entity.Account", {
+  "active" : true,
+  "username" : "Olivia-Chua",
+  "password" : "password",
+  "type" : 0,
+  "userProfile" : [ "Entity.CustProfile", {
+    "firstName" : "Olivia",
+    "lastName" : "Chua",
+    "gender" : "Male",
+    "age" : 81,
+    "phoneNo" : "87226112",
+    "email" : "Olivia-Chua@example.com",
+    "genre" : "Romance",
+    "active" : false,
+    "loyaltyPoints" : 0
+  } ]
+} ], [ "Entity.Account", {
+  "active" : true,
+  "username" : "Samuel-Poh",
+  "password" : "password",
+  "type" : 0,
+  "userProfile" : [ "Entity.CustProfile", {
+    "firstName" : "Samuel",
+    "lastName" : "Poh",
+    "gender" : "Female",
+    "age" : 43,
+    "phoneNo" : "84394898",
+    "email" : "Samuel-Poh@gmail.com",
+    "genre" : "Drama",
+    "active" : false,
+    "loyaltyPoints" : 0
+  } ]
+} ], [ "Entity.Account", {
+  "active" : true,
+  "username" : "Isabella-Goh",
+  "password" : "password",
+  "type" : 0,
+  "userProfile" : [ "Entity.CustProfile", {
+    "firstName" : "Isabella",
+    "lastName" : "Goh",
+    "gender" : "Female",
+    "age" : 56,
+    "phoneNo" : "99095284",
+    "email" : "Isabella-Goh@yahoo.com",
+    "genre" : "Drama",
+    "active" : false,
+    "loyaltyPoints" : 0
+  } ]
+} ], [ "Entity.Account", {
+  "active" : true,
+  "username" : "Isaac-Chua",
+  "password" : "password",
+  "type" : 0,
+  "userProfile" : [ "Entity.CustProfile", {
+    "firstName" : "Isaac",
+    "lastName" : "Chua",
+    "gender" : "Female",
+    "age" : 94,
+    "phoneNo" : "93550851",
+    "email" : "Isaac-Chua@gmail.com",
+    "genre" : "Adventure",
+    "active" : false,
+    "loyaltyPoints" : 0
+  } ]
+} ], [ "Entity.Account", {
+  "active" : true,
+  "username" : "Matthew-Teo",
+  "password" : "password",
+  "type" : 0,
+  "userProfile" : [ "Entity.CustProfile", {
+    "firstName" : "Matthew",
+    "lastName" : "Teo",
+    "gender" : "Male",
+    "age" : 91,
+    "phoneNo" : "92077139",
+    "email" : "Matthew-Teo@outlook.com",
+    "genre" : "Horror",
+    "active" : false,
+    "loyaltyPoints" : 0
+  } ]
+} ], [ "Entity.Account", {
+  "active" : true,
+  "username" : "Natalie-Ng",
+  "password" : "password",
+  "type" : 0,
+  "userProfile" : [ "Entity.CustProfile", {
+    "firstName" : "Natalie",
+    "lastName" : "Ng",
+    "gender" : "Male",
+    "age" : 72,
+    "phoneNo" : "86504333",
+    "email" : "Natalie-Ng@outlook.com",
+    "genre" : "Crime",
+    "active" : false,
+    "loyaltyPoints" : 0
+  } ]
+} ], [ "Entity.Account", {
+  "active" : true,
+  "username" : "Emma-Tay",
+  "password" : "password",
+  "type" : 0,
+  "userProfile" : [ "Entity.CustProfile", {
+    "firstName" : "Emma",
+    "lastName" : "Tay",
+    "gender" : "Female",
+    "age" : 51,
+    "phoneNo" : "96606382",
+    "email" : "Emma-Tay@yahoo.com",
+    "genre" : "Comedy",
+    "active" : false,
+    "loyaltyPoints" : 3
+  } ]
+} ], [ "Entity.Account", {
+  "active" : true,
+  "username" : "Ava-Toh",
+  "password" : "password",
+  "type" : 0,
+  "userProfile" : [ "Entity.CustProfile", {
+    "firstName" : "Ava",
+    "lastName" : "Toh",
+    "gender" : "Male",
+    "age" : 28,
+    "phoneNo" : "96800029",
+    "email" : "Ava-Toh@example.com",
+    "genre" : "Drama",
+    "active" : false,
+    "loyaltyPoints" : 0
+  } ]
+} ], [ "Entity.Account", {
+  "active" : true,
+  "username" : "Emily-Neo",
+  "password" : "password",
+  "type" : 0,
+  "userProfile" : [ "Entity.CustProfile", {
+    "firstName" : "Emily",
+    "lastName" : "Neo",
+    "gender" : "Female",
+    "age" : 96,
+    "phoneNo" : "98918879",
+    "email" : "Emily-Neo@example.com",
+    "genre" : "Crime",
+    "active" : false,
+    "loyaltyPoints" : 0
+  } ]
+} ], [ "Entity.Account", {
+  "active" : true,
+  "username" : "Noah-Ang",
+  "password" : "password",
+  "type" : 0,
+  "userProfile" : [ "Entity.CustProfile", {
+    "firstName" : "Noah",
+    "lastName" : "Ang",
+    "gender" : "Female",
+    "age" : 22,
+    "phoneNo" : "95114877",
+    "email" : "Noah-Ang@gmail.com",
+    "genre" : "Historical",
+    "active" : false,
+    "loyaltyPoints" : 0
+  } ]
+} ] ] ]

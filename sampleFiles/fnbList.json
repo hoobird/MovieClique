@@ -1,0 +1,31 @@
+[ "java.util.ArrayList", [ [ "Entity.FnB", {
+  "fnbID" : 1,
+  "name" : "Popcorn",
+  "price" : 2.5,
+  "stock" : 96
+} ], [ "Entity.FnB", {
+  "fnbID" : 2,
+  "name" : "Chips",
+  "price" : 3.5,
+  "stock" : 95
+} ], [ "Entity.FnB", {
+  "fnbID" : 3,
+  "name" : "Nachos",
+  "price" : 4.5,
+  "stock" : 98
+} ], [ "Entity.FnB", {
+  "fnbID" : 4,
+  "name" : "Coke",
+  "price" : 1.5,
+  "stock" : 193
+} ], [ "Entity.FnB", {
+  "fnbID" : 5,
+  "name" : "Sprite",
+  "price" : 1.5,
+  "stock" : 198
+} ], [ "Entity.FnB", {
+  "fnbID" : 6,
+  "name" : "Ice Lemon Tea",
+  "price" : 1.5,
+  "stock" : 195
+} ] ] ]

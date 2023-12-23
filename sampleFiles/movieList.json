@@ -1,0 +1,55 @@
+[ "java.util.ArrayList", [ [ "Entity.Movie", {
+  "movieID" : 9,
+  "name" : "Bentley",
+  "imgFile" : "Poster9.png",
+  "description" : "Bentley Description",
+  "genre" : "Horror"
+} ], [ "Entity.Movie", {
+  "movieID" : 8,
+  "name" : "World Of Mine",
+  "imgFile" : "Poster8.png",
+  "description" : "World Of Mine Description",
+  "genre" : "Drama"
+} ], [ "Entity.Movie", {
+  "movieID" : 7,
+  "name" : "The Light in the Night Sky",
+  "imgFile" : "Poster7.png",
+  "description" : "The Light in the Night Sky Description",
+  "genre" : "Drama"
+} ], [ "Entity.Movie", {
+  "movieID" : 6,
+  "name" : "Always be alone",
+  "imgFile" : "Poster6.png",
+  "description" : "Always be alone Description",
+  "genre" : "Comedy"
+} ], [ "Entity.Movie", {
+  "movieID" : 5,
+  "name" : "Till death do us part",
+  "imgFile" : "Poster5.png",
+  "description" : "Till death do us part Description",
+  "genre" : "Horror"
+} ], [ "Entity.Movie", {
+  "movieID" : 4,
+  "name" : "Samurai Warrior - Final Battle",
+  "imgFile" : "Poster4.png",
+  "description" : "Samurai  Warrior Description",
+  "genre" : "Historical"
+} ], [ "Entity.Movie", {
+  "movieID" : 3,
+  "name" : "Scary Boy",
+  "imgFile" : "Poster3.png",
+  "description" : "Scary Boy Description",
+  "genre" : "Horror"
+} ], [ "Entity.Movie", {
+  "movieID" : 2,
+  "name" : "Vroom Vroom",
+  "imgFile" : "Poster2.png",
+  "description" : "Vroom Vroom Description",
+  "genre" : "Action"
+} ], [ "Entity.Movie", {
+  "movieID" : 1,
+  "name" : "Forever Alone",
+  "imgFile" : "Poster1.png",
+  "description" : "Forever Alone Description",
+  "genre" : "Comedy"
+} ] ] ]

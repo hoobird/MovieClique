@@ -1,0 +1,13 @@
+[ "java.util.ArrayList", [ [ "Entity.Hall", {
+  "seatCount" : 50,
+  "hallID" : 0
+} ], [ "Entity.Hall", {
+  "seatCount" : 50,
+  "hallID" : 1
+} ], [ "Entity.Hall", {
+  "seatCount" : 50,
+  "hallID" : 2
+} ], [ "Entity.Hall", {
+  "seatCount" : 50,
+  "hallID" : 3
+} ] ] ]
